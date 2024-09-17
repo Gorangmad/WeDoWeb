@@ -1,0 +1,238 @@
+/* .overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+}
+
+.bar {
+  width: 10vw;
+  height: 105vh;
+  background: #1a1a1a;
+}
+
+.counter {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #bcbcc4;
+  padding: 0.2em 0.4em;
+  font-size: 20vw;
+  font-family: "Carpenter";
+  z-index: 10000;
+}
+
+.service-text {
+  font-size: 4rem;
+  text-align: start;
+  color: white;
+  margin: 0;
+  line-height: 0;
+  margin-left: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+ 
+  left: 12%;
+}
+
+.main {
+  font-size: 4rem;
+ 
+}
+
+@media only screen and (max-width: 1200px) {
+} */
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+}
+
+.bar {
+  width: 10vw;
+  height: 105vh;
+  background: #1a1a1a;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  /* top: 50%; */
+  /* left: 12%; */
+}
+
+.company-name {
+  font-size: 1.5rem;
+}
+
+.service-text {
+  font-size: 1.5rem;
+  text-align: start;
+  color: white;
+  margin: 0;
+  line-height: 0;
+  margin-left: 1rem;
+}
+
+@media only screen and (min-width: 450px) {
+  .company-name {
+    font-size: 1.8rem;
+  }
+
+  .service-text {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .company-name {
+    font-size: 2.2rem;
+  }
+
+  .service-text {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .container {
+    left: 4%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    /* left: 7%; */
+  }
+  .company-name {
+    font-size: 2.5rem;
+  }
+
+  .service-text {
+    font-size: 2.5rem;
+    margin-left: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    left: 5.5%;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .container {
+    left: 6.5%;
+  }
+  .company-name {
+    font-size: 2.8rem;
+  }
+
+  .service-text {
+    font-size: 2.8rem;
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    left: 3%;
+  }
+  .company-name {
+    font-size: 3rem;
+  }
+
+  .service-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  .container {
+    left: 5.5%;
+  }
+  .company-name {
+    font-size: 3rem;
+  }
+
+  .service-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  .container {
+    left: 8%;
+  }
+  .company-name {
+    font-size: 3.4rem;
+  }
+
+  .service-text {
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    left: 2%;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .container {
+    left: 4%;
+  }
+  .company-name {
+    font-size: 4rem;
+  }
+
+  .service-text {
+    font-size: 4rem;
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    left: 5%;
+  }
+}
+@media only screen and (min-width: 1535px) {
+  .container {
+    left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .container {
+    left: 8%;
+  }
+  .company-name {
+    font-size: 4rem;
+  }
+
+  .service-text {
+    font-size: 4rem;
+  }
+}
