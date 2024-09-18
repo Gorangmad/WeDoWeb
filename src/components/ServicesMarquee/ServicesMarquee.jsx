@@ -21,10 +21,10 @@ const ServicesMarquee = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: marqueeRef.current,
-        start: "50% 50%",
+        start: "10% 50%",
         end: "bottom 50%",
-        markers: true,
-        scrub: 2,
+        // markers: true,
+        scrub: true,
       },
     });
     tl.to(".arrow", {
@@ -34,7 +34,7 @@ const ServicesMarquee = () => {
 
   return (
     <Marquee
-      className="bg-black text-white  py-10 w-screen text-5xl mt-40 "
+      className="bg-black text-white  py-10 w-screen text-5xl my-20"
       ref={marqueeRef}
     >
       <p className="">Website Development</p>
