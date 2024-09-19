@@ -123,13 +123,8 @@ const Home = () => {
       ref={mainContainerRef}
       className=" "
     >
-      {/* <div
-        className="absolute w-5 h-5 bg-black rounded-full z-[5]"
-        id="cursor"
-        ref={cursorRef}
-      ></div> */}
       <div
-        className="w-52 h-32   rotate-45 rounded-xl absolute left-96 top-44  hidden lg:flex justify-center items-center"
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-45  absolute top-[20%] 2xl:top-[17%] left-[15%] xl:left-[22%] 2xl:left-[18%]  hidden   justify-center items-center"
         id="card-1"
         ref={card1Ref}
       >
@@ -144,7 +139,7 @@ const Home = () => {
         </svg>
       </div>
       <div
-        className="w-52 h-32 rotate-[35deg] rounded-xl absolute right-96 top-44 hidden lg:flex justify-center items-center"
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-90  absolute top-[47%] left-[5%] xl:left-[12%] 2xl:left-[9%]  hidden   justify-center items-center"
         id="card-1"
         ref={card2Ref}
       >
@@ -157,9 +152,9 @@ const Home = () => {
         >
           <path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path>
         </svg>
-      </div>{" "}
+      </div>
       <div
-        className="w-52 h-32  rotate-[120deg] rounded-xl absolute left-96 bottom-44  hidden lg:flex justify-center items-center"
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-180  absolute top-[75%] left-[15%] xl:left-[22%] 2xl:left-[18%] hidden   justify-center items-center"
         id="card-1"
         ref={card3Ref}
       >
@@ -172,11 +167,11 @@ const Home = () => {
         >
           <path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path>
         </svg>
-      </div>{" "}
+      </div>
       <div
-        className="w-52 h-32  rotate-[190deg] rounded-xl absolute right-96 bottom-44  hidden lg:flex justify-center items-center"
+        className="2xl:w-52 2xl:h-32 w-28 h-28   -rotate-45  absolute top-[20%] 2xl:top-[17%] right-[15%] xl:right-[22%] 2xl:right-[18%] hidden   justify-center items-center"
         id="card-1"
-        ref={card4Ref}
+        ref={card1Ref}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -188,19 +183,50 @@ const Home = () => {
           <path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path>
         </svg>
       </div>
-      <PreLoader />
+      <div
+        className="2xl:w-52 2xl:h-32 w-28 h-28   -rotate-90  absolute top-[47%] right-[5%] xl:right-[12%] 2xl:right-[9%] hidden   justify-center items-center"
+        id="card-1"
+        ref={card2Ref}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="150"
+          height="150"
+          fill="rgba(6,182,212,1)"
+        >
+          <path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path>
+        </svg>
+      </div>
+      <div
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-12  absolute top-[75%] right-[15%] xl:right-[22%]  2xl:right-[18%] hidden   justify-center items-center"
+        id="card-1"
+        ref={card3Ref}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="150"
+          height="150"
+          fill="rgba(6,182,212,1)"
+        >
+          <path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path>
+        </svg>
+      </div>
+
+      {/* <PreLoader /> */}
       <div className=" min-h-screen  ">
         <Header />
         <MainSection />
-        {/* <AboutSection /> */}
-        {/* <SectionSpace /> */}
-        {/* <FaqsSection /> */}
-        {/* <SectionSpace /> */}
-        {/* <ServicesSection /> */}
-        {/* <SectionSpace /> */}
+        <AboutSection />
+        <SectionSpace />
+        <FaqsSection />
+        <SectionSpace />
+        <ServicesSection />
+        <SectionSpace />
         {/* <ServicesMarquee /> */}
-        {/* <ContactSection /> */}
-        {/* <Footer /> */}
+        <ContactSection />
+        <Footer />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ import { Link } from "react-scroll";
 const SideDrawer = () => {
   return (
     <Sheet>
-      <div className="flex justify-between items-center bg-transparent px-2 pt-4 fixed top-0 w-full">
+      <div className="flex justify-between items-center bg-transparent pl-2 pt-4 pr-4 fixed top-0 w-full  min-[450px]:pl-5 min-[450px]:pr-6 bg-white z-50">
         <img src={Logo} className="w-32" />
         <div className="   flex justify-start items-center ">
           <SheetTrigger>

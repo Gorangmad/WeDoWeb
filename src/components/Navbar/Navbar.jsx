@@ -9,7 +9,7 @@ const Navbar = () => {
       y: -30,
       opacity: 0,
       duration: 0.5,
-      delay: 4.5,
+      // delay: 4.5,
     });
     tl.from(".nav-links", {
       y: -30,
@@ -19,7 +19,7 @@ const Navbar = () => {
     });
   });
   return (
-    <nav className="flex items-center justify-between w-5/6 mx-auto fixed top-0">
+    <nav className="flex items-center justify-between w-5/6 mx-auto right-0 left-0 fixed top-0 bg-white">
       <div>
         <img src={Logo} className="w-40" />
       </div>

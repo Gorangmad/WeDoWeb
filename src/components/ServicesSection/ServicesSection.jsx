@@ -303,14 +303,14 @@ import React from "react";
 import CodeIcon from "@mui/icons-material/Code";
 const ServicesSection = () => {
   return (
-    <section className="w-5/6 mx-auto">
+    <section className=" w-11/12 min-[450px]:w-5/6 mx-auto">
       <div className=" ">
-        <h2 className="col-span-4 text-cyan-500 font-black   text-7xl my-10">
+        <h2 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
           Services
         </h2>
         <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
       </div>
-      <div className="flex flex-wrap justify-start gap-20 ">
+      <div className="flex flex-wrap justify-center  gap-10 lg:gap-20 ">
         <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
           {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
@@ -327,7 +327,7 @@ const ServicesSection = () => {
           </div>
           <p className="text-2xl font-bold  mb-6 mt-4 ">Web Development</p>
           <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
+            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw
           </p>
         </div>
         <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
