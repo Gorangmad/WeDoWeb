@@ -11,7 +11,7 @@ import Lottie from "lottie-react";
 
 const FaqsSection = () => {
   return (
-    <section className="w-11/12 min-[450px]:w-5/6 mx-auto ">
+    <section className="w-11/12 min-[450px]:w-5/6 mx-auto mb-20 ">
       <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
         FAQs
       </h1>

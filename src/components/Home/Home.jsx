@@ -221,7 +221,8 @@ const Home = () => {
         <AboutSection />
         <SectionSpace />
         <FaqsSection />
-        <SectionSpace />
+        {/* <SectionSpace /> */}
+
         <ServicesSection />
         <SectionSpace />
         {/* <ServicesMarquee /> */}
