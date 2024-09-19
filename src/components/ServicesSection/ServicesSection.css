@@ -107,3 +107,20 @@ html.lenis body {
 .lenis.lenis-smooth iframe {
   pointer-events: none;
 }
+
+.elem {
+  position: relative;
+
+  /* width: 100%; */
+}
+
+.elem img {
+  opacity: 0;
+  pointer-events: none;
+  height: 140%;
+  z-index: 999;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  width: 25%;
+}

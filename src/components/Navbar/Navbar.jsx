@@ -19,7 +19,7 @@ const Navbar = () => {
     });
   });
   return (
-    <nav className="flex items-center justify-between ">
+    <nav className="flex items-center justify-between w-5/6 mx-auto fixed top-0">
       <div>
         <img src={Logo} className="w-40" />
       </div>

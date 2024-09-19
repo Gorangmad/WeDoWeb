@@ -11,6 +11,8 @@ import ServicesMarquee from "../ServicesMarquee/ServicesMarquee";
 import FaqsSection from "../FaqsSection/FaqsSection";
 import ServicesSection from "../ServicesSection/ServicesSection";
 import Footer from "../Footer/Footer";
+import ContactSection from "../ContactSection/ContactSection";
+import SectionSpace from "../SectionSpace/SectionSpace";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -127,7 +129,7 @@ const Home = () => {
         ref={cursorRef}
       ></div> */}
       <div
-        className="w-52 h-32   rotate-45 rounded-xl absolute left-96 top-44 flex justify-center items-center"
+        className="w-52 h-32   rotate-45 rounded-xl absolute left-96 top-44  hidden lg:flex justify-center items-center"
         id="card-1"
         ref={card1Ref}
       >
@@ -142,7 +144,7 @@ const Home = () => {
         </svg>
       </div>
       <div
-        className="w-52 h-32 rotate-[35deg] rounded-xl absolute right-96 top-44  flex justify-center items-center"
+        className="w-52 h-32 rotate-[35deg] rounded-xl absolute right-96 top-44 hidden lg:flex justify-center items-center"
         id="card-1"
         ref={card2Ref}
       >
@@ -157,7 +159,7 @@ const Home = () => {
         </svg>
       </div>{" "}
       <div
-        className="w-52 h-32  rotate-[120deg] rounded-xl absolute left-96 bottom-44  flex justify-center items-center"
+        className="w-52 h-32  rotate-[120deg] rounded-xl absolute left-96 bottom-44  hidden lg:flex justify-center items-center"
         id="card-1"
         ref={card3Ref}
       >
@@ -172,7 +174,7 @@ const Home = () => {
         </svg>
       </div>{" "}
       <div
-        className="w-52 h-32  rotate-[190deg] rounded-xl absolute right-96 bottom-44  flex justify-center items-center"
+        className="w-52 h-32  rotate-[190deg] rounded-xl absolute right-96 bottom-44  hidden lg:flex justify-center items-center"
         id="card-1"
         ref={card4Ref}
       >
@@ -190,11 +192,15 @@ const Home = () => {
       <div className=" min-h-screen  ">
         <Header />
         <MainSection />
-        <AboutSection />
-        <FaqsSection />
-        <ServicesSection />
-        <ServicesMarquee />
-        <Footer />
+        {/* <AboutSection /> */}
+        {/* <SectionSpace /> */}
+        {/* <FaqsSection /> */}
+        {/* <SectionSpace /> */}
+        {/* <ServicesSection /> */}
+        {/* <SectionSpace /> */}
+        {/* <ServicesMarquee /> */}
+        {/* <ContactSection /> */}
+        {/* <Footer /> */}
       </div>
     </div>
   );

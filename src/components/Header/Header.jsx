@@ -1,11 +1,11 @@
+import { useMediaQuery } from "react-responsive";
+
 import Navbar from "../Navbar/Navbar";
+import SideDrawer from "../SideDrawer/SideDrawer";
 
 const Header = () => {
-  return (
-    <div className="w-5/6 mx-auto">
-      <Navbar />
-    </div>
-  );
+  const isMobile = useMediaQuery({ maxWidth: 1024 });
+  return isMobile ? <SideDrawer /> : <Navbar />;
 };
 
 export default Header;
