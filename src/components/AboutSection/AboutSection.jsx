@@ -6,8 +6,11 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+import CallIcon from "@mui/icons-material/Call";
+
 import AboutLottie from "../../assets/Lotties/about.json";
 import AboutImage from "../../assets/about.jpg";
+import { Button } from "../../shadcn-components/ui/button";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -94,6 +97,21 @@ const AboutSection = () => {
               to align with your specific goals and challenges. Let WEDO be the
               catalyst for your digital transformation.
             </p>
+          </div>
+          <div className="mt-10 w-full flex justify-start  ">
+            <Button className="rounded-full text-xl px-6 py-8 font-semibold bg-cyan-500">
+              <a
+                href="https://tally.so/r/w52XQo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact Now{" "}
+                <CallIcon
+                  fontSize="large"
+                  className="ms-5 bg-white text-black rounded-full p-1  "
+                />
+              </a>
+            </Button>
           </div>
         </div>
         <div className="col-span-1 flex justify-center items-center my-10 min-[450px]:my-20 sm:my-28  min-[900px]:my-36 lg:my-0 ">

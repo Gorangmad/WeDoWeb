@@ -17,114 +17,722 @@ import SectionSpace from "../SectionSpace/SectionSpace";
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
   const mainContainerRef = useRef();
-  const cursorRef = useRef();
+  const aboutContainerRef = useRef();
+  const faqContainerRef = useRef();
+  const servicesContainerRef = useRef();
+
   const card1Ref = useRef();
   const card2Ref = useRef();
   const card3Ref = useRef();
   const card4Ref = useRef();
+  const card5Ref = useRef();
+  const card6Ref = useRef();
 
+  // ------------------SINGLE TIMELINE----------------------
   useGSAP(() => {
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: mainContainerRef.current,
-        start: "0% 0%",
-        end: "33% 50%",
-        scrub: 1,
+    let mm = gsap.matchMedia();
+    // const tl = gsap.timeline({
+    //   scrollTrigger: {
+    //     trigger: mainContainerRef.current,
+    //     start: "1% 0%",
+    //     end: "68% 50%",
+    //     scrub: 2,
 
-        // markers: true,
-      },
-    });
-
-    tl.to(
-      card1Ref.current,
-      {
-        top: "130%",
-        left: "65%",
-        rotate: "180",
-        scale: 0.5,
-      },
-      "card"
-    );
-    tl.to(
-      card2Ref.current,
-      {
-        top: "130%",
-        left: "65%",
-        rotate: "180",
-        scale: 0.5,
-      },
-      "card"
-    );
-    tl.to(
-      card3Ref.current,
-      {
-        top: "130%",
-        left: "65%",
-        rotate: "180",
-        scale: 0.5,
-      },
-      "card"
-    );
-    tl.to(
-      card4Ref.current,
-      {
-        top: "130%",
-        left: "65%",
-        rotate: "180",
-        scale: 0.5,
-      },
-      "card"
-    );
-    tl.set(
-      [card1Ref.current, card2Ref.current, card3Ref.current, card4Ref.current],
-      {
-        display: "none",
-      }
-    );
+    //     markers: true,
+    //   },
+    // });
 
     // tl.to(
-    //   card4Ref.current,
+    //   [
+    //     card1Ref.current,
+    //     card2Ref.current,
+    //     card3Ref.current,
+    //     card4Ref.current,
+    //     card5Ref.current,
+    //     card6Ref.current,
+    //   ],
     //   {
-    //     top: "166%",
-    //     left: "80%",
-    //     rotate: "180",
+    //     top: "130%",
+    //     left: "70%",
+    //     rotate: "360",
     //     scale: 0.5,
+    //     duration: 0.5,
+    //   },
+    //   "first"
+    // );
+
+    // mm.add("(min-width:1024px)", () => {
+    //   const tl = gsap.timeline({
+    //     scrollTrigger: {
+    //       trigger: mainContainerRef.current,
+    //       start: "0% 0%",
+    //       end: "70% 50%",
+    //       scrub: 1,
+
+    //       markers: true,
+    //     },
+    //   });
+
+    //   tl.to(
+    //     [
+    //       card1Ref.current,
+    //       card2Ref.current,
+    //       card3Ref.current,
+    //       card4Ref.current,
+    //       card5Ref.current,
+    //       card6Ref.current,
+    //     ],
+    //     {
+    //       top: "130%",
+    //       left: "70%",
+    //       rotate: "360",
+    //       scale: 0.5,
+    //       // duration: 0.2,
+    //     },
+    //     "first"
+    //   );
+    //   tl.to(
+    //     [
+    //       card1Ref.current,
+    //       card2Ref.current,
+    //       card3Ref.current,
+    //       card4Ref.current,
+    //       card5Ref.current,
+    //       card6Ref.current,
+    //     ],
+    //     {
+    //       top: "200%",
+    //       left: "20%",
+    //       rotate: "270",
+    //       scale: 1,
+    //       stagger: 0.04,
+    //       // duration: 0.1,
+    //     }
+    //   );
+    // });
+
+    mm.add("(min-width:1280px)", () => {
+      // FIRST ANIMATION
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: mainContainerRef.current,
+          start: "1% 0%",
+          end: "20% 50%",
+          scrub: 2,
+
+          // markers: true,
+        },
+      });
+
+      tl.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+        {
+          top: "130%",
+          left: "70%",
+          rotate: "360",
+          scale: 0.5,
+          duration: 5,
+        },
+        "first"
+      );
+
+      // SECOND ANIMATION
+      const tl2 = gsap.timeline({
+        scrollTrigger: {
+          trigger: aboutContainerRef.current,
+          start: "70% 50%",
+          end: "155% 50%",
+          scrub: 2,
+
+          markers: true,
+        },
+      });
+      tl2.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+        {
+          top: "220%",
+          left: "20%",
+          rotate: "270",
+          scale: 1,
+          duration: 1,
+          stagger: 0.2,
+        },
+        "second"
+      );
+
+      // 3RD ANIMATION
+
+      const tl3 = gsap.timeline({
+        scrollTrigger: {
+          trigger: faqContainerRef.current,
+          start: "80% 50%",
+          end: "150% 50%",
+          scrub: 2,
+
+          markers: true,
+        },
+      });
+
+      tl3.to(
+        card1Ref.current,
+        {
+          top: "292%",
+          left: "31%",
+          rotate: "45",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card2Ref.current,
+        {
+          top: "292%",
+          left: "60.2%",
+          rotate: "12",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card3Ref.current,
+        {
+          top: "343%",
+          left: "31%",
+          rotate: "36",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card4Ref.current,
+        {
+          top: "343%",
+          left: "60.2%",
+          rotate: "57",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card5Ref.current,
+        {
+          top: "318%",
+          left: "31%",
+          rotate: "99",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card6Ref.current,
+        {
+          top: "318%",
+          left: "60.2%",
+          rotate: "270",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+
+      // 4th ANIMATION
+
+      const tl4 = gsap.timeline({
+        scrollTrigger: {
+          trigger: servicesContainerRef.current,
+          start: "80% 50%",
+          end: "150% 50%",
+          scrub: 2,
+
+          markers: true,
+        },
+      });
+
+      tl4.to(
+        card1Ref.current,
+        {
+          top: "393%",
+          left: "30%",
+          rotate: "45",
+          scale: 0.8,
+        },
+        "card2"
+      );
+      tl4.to(
+        card2Ref.current,
+        {
+          top: "403%",
+          left: "80%",
+          rotate: "-45",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card2"
+      );
+      tl4.to(
+        card3Ref.current,
+        {
+          top: "420%",
+          left: "48%",
+          rotate: "315",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card2"
+      );
+      tl4.to(
+        card4Ref.current,
+        {
+          top: "466%",
+          left: "28%",
+          rotate: "45",
+          scale: 0.8,
+        },
+        "card2"
+      );
+      tl4.to(
+        card5Ref.current,
+        {
+          top: "463%",
+          left: "80%",
+          rotate: "-45",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card2"
+      );
+      tl4.to(
+        card6Ref.current,
+        {
+          top: "455%",
+          left: "50%",
+          rotate: "163",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card2"
+      );
+    });
+
+    // -------------------LARGE SCREENS--------------------
+
+    mm.add("(min-width:1536px)", () => {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: mainContainerRef.current,
+          start: "1% 0%",
+          end: "68% 50%",
+          scrub: 2,
+
+          markers: true,
+        },
+      });
+
+      tl.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+        {
+          top: "130%",
+          left: "70%",
+          rotate: "360",
+          scale: 0.5,
+          duration: 0.5,
+        },
+        "first"
+      );
+      tl.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+        {
+          top: "220%",
+          left: "20%",
+          rotate: "270",
+          scale: 1,
+          stagger: 0.08,
+          // duration: 0.1,
+        }
+      );
+    });
+
+    // ----------ANIMATION 3------------
+
+    // tl.to(
+    //   card1Ref.current,
+    //   {
+    //     top: "278%",
+    //     left: "23.5%",
+    //     rotate: "360",
+    //     scale: 0.5,
+    //     // duration: 0.2,
     //   },
     //   "card"
     // );
+    // tl.to(
+    //   card2Ref.current,
+    //   {
+    //     top: "278%",
+    //     left: "44.5%",
+    //     rotate: "360",
+    //     scale: 0.5,
+    //     // duration: 0.2,
+    //   },
+    //   "card"
+    // );
+    // tl.to(
+    //   card3Ref.current,
+    //   {
+    //     top: "278%",
+    //     left: "65.5%",
+    //     rotate: "360",
+    //     scale: 0.5,
+    //     // duration: 0.2,
+    //   },
+    //   "card"
+    // );
+    // tl.to(
+    //   card4Ref.current,
+    //   {
+    //     top: "313%",
+    //     left: "23.5%",
+    //     rotate: "360",
+    //     scale: 0.5,
+    //     // duration: 0.2,
+    //   },
+    //   "card"
+    // );
+    // tl.to(
+    //   card5Ref.current,
+    //   {
+    //     top: "313%",
+    //     left: "44.5%",
+    //     rotate: "360",
+    //     scale: 0.5,
+    //     // duration: 0.2,
+    //   },
+    //   "card"
+    // );
+    // tl.to(
+    //   card6Ref.current,
+    //   {
+    //     top: "313%",
+    //     left: "65.5%",
+    //     rotate: "360",
+    //     scale: 0.5,
+    //     // duration: 0.2,
+    //   },
+    //   "card"
+    // );
+
+    //   // ------------4th ANIMATION-----------------
+    // tl.to(
+    //   card1Ref.current,
+    //   {
+    //     top: "362%",
+    //     left: "23.5%",
+    //     rotate: "45",
+    //     scale: 0.8,
+    //   },
+    //   "card2"
+    // );
+    // tl.to(
+    //   card2Ref.current,
+    //   {
+    //     top: "362%",
+    //     left: "80%",
+    //     rotate: "-45",
+    //     scale: 0.8,
+    //     zIndex: 5,
+    //   },
+    //   "card2"
+    // );
+    // tl.to(
+    //   card3Ref.current,
+    //   {
+    //     top: "385%",
+    //     left: "48%",
+    //     rotate: "315",
+    //     scale: 0.8,
+    //     zIndex: 5,
+    //   },
+    //   "card2"
+    // );
+    // tl.to(
+    //   card4Ref.current,
+    //   {
+    //     top: "420%",
+    //     left: "23.5%",
+    //     rotate: "45",
+    //     scale: 0.8,
+    //   },
+    //   "card2"
+    // );
+    // tl.to(
+    //   card5Ref.current,
+    //   {
+    //     top: "420%",
+    //     left: "80%",
+    //     rotate: "-45",
+    //     scale: 0.8,
+    //     zIndex: 5,
+    //   },
+    //   "card2"
+    // );
+    // tl.to(
+    //   card6Ref.current,
+    //   {
+    //     top: "420%",
+    //     left: "45%",
+    //     rotate: "163",
+    //     scale: 0.8,
+    //     zIndex: 5,
+    //   },
+    //   "card2"
+    // );
   });
+  // -------------------MULTIPLE TIMELINES----------------------
 
-  // useEffect(() => {
-  //   console.log(mousePosition);
-  // gsap.to("#cursor", {
-  //   x: mousePosition.x,
-  //   y: mousePosition.y,
-  //   duration: 0.7,
-  // });
-  // }, [mousePosition]);
+  // useGSAP(() => {
+  // const tl = gsap.timeline({
+  //   scrollTrigger: {
+  //     trigger: mainContainerRef.current,
+  //     start: "1% 0%",
+  //     end: "21% 40%",
+  //     scrub: 2,
 
-  // useGSAP(
-  //   () => {
-  //     gsap.to(cursorRef.current, {
-  //       x: mousePosition.x,
-  //       y: mousePosition.y,
-  //       duration: 0.7,
-  //     });
+  //     // markers: true,
   //   },
-  //   { scope: mainContainerRef.current, dependencies: [mousePosition] }
+  // });
+
+  // tl.to(
+  //   [
+  //     card1Ref.current,
+  //     card2Ref.current,
+  //     card3Ref.current,
+  //     card4Ref.current,
+  //     card5Ref.current,
+  //     card6Ref.current,
+  //   ],
+  // {
+  //   top: "130%",
+  //   left: "70%",
+  //   rotate: "360",
+  //   scale: 0.5,
+  // }
+  // );
+  //   const tl2 = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: aboutContainerRef.current,
+  //       start: "40% 50%",
+  //       end: "180% 50%",
+  //       scrub: 2,
+
+  //       // markers: true,
+  //     },
+  //   });
+  //   tl2.to(
+  //     [
+  //       card1Ref.current,
+  //       card2Ref.current,
+  //       card3Ref.current,
+  //       card4Ref.current,
+  //       card5Ref.current,
+  //       card6Ref.current,
+  //     ],
+  // {
+  //   top: "220%",
+  //   left: "20%",
+  //   rotate: "270",
+  //   scale: 1,
+  //   stagger: 0.1,
+  // }
+  //   );
+
+  //   const tl3 = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: faqContainerRef.current,
+  //       start: "80% 50%",
+  //       end: "170% 50%",
+  //       scrub: 2,
+
+  //       // markers: true,
+  //     },
+  //   });
+  // tl3.to(
+  //   card1Ref.current,
+  //   {
+  //     top: "278%",
+  //     left: "23.5%",
+  //     rotate: "360",
+  //     scale: 0.5,
+  //   },
+  //   "card"
+  // );
+  // tl3.to(
+  //   card2Ref.current,
+  //   {
+  //     top: "278%",
+  //     left: "44.5%",
+  //     rotate: "360",
+  //     scale: 0.5,
+  //   },
+  //   "card"
+  // );
+  // tl3.to(
+  //   card3Ref.current,
+  //   {
+  //     top: "278%",
+  //     left: "65.5%",
+  //     rotate: "360",
+  //     scale: 0.5,
+  //   },
+  //   "card"
+  // );
+  // tl3.to(
+  //   card4Ref.current,
+  //   {
+  //     top: "313%",
+  //     left: "23.5%",
+  //     rotate: "360",
+  //     scale: 0.5,
+  //   },
+  //   "card"
+  // );
+  // tl3.to(
+  //   card5Ref.current,
+  //   {
+  //     top: "313%",
+  //     left: "44.5%",
+  //     rotate: "360",
+  //     scale: 0.5,
+  //   },
+  //   "card"
+  // );
+  // tl3.to(
+  //   card6Ref.current,
+  //   {
+  //     top: "313%",
+  //     left: "65.5%",
+  //     rotate: "360",
+  //     scale: 0.5,
+  //   },
+  //   "card"
   // );
 
+  //   // -----------------------------------------
+
+  //   const tl4 = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: servicesContainerRef.current,
+  //       start: "80% 50%",
+  //       end: "170% 50%",
+  //       scrub: 2,
+
+  //       // markers: true,
+  //     },
+  //   });
+
+  // tl4.to(
+  //   card1Ref.current,
+  //   {
+  //     top: "362%",
+  //     left: "23.5%",
+  //     rotate: "45",
+  //     scale: 0.8,
+  //   },
+  //   "card2"
+  // );
+  // tl4.to(
+  //   card2Ref.current,
+  //   {
+  //     top: "362%",
+  //     left: "80%",
+  //     rotate: "-45",
+  //     scale: 0.8,
+  //     zIndex: 5,
+  //   },
+  //   "card2"
+  // );
+  // tl4.to(
+  //   card3Ref.current,
+  //   {
+  //     top: "385%",
+  //     left: "48%",
+  //     rotate: "315",
+  //     scale: 0.8,
+  //     zIndex: 5,
+  //   },
+  //   "card2"
+  // );
+  // tl4.to(
+  //   card4Ref.current,
+  //   {
+  //     top: "420%",
+  //     left: "23.5%",
+  //     rotate: "45",
+  //     scale: 0.8,
+  //   },
+  //   "card2"
+  // );
+  // tl4.to(
+  //   card5Ref.current,
+  //   {
+  //     top: "420%",
+  //     left: "80%",
+  //     rotate: "-45",
+  //     scale: 0.8,
+  //     zIndex: 5,
+  //   },
+  //   "card2"
+  // );
+  // tl4.to(
+  //   card6Ref.current,
+  //   {
+  //     top: "420%",
+  //     left: "45%",
+  //     rotate: "163",
+  //     scale: 0.8,
+  //     zIndex: 5,
+  //   },
+  //   "card2"
+  // );
+  // });
+
   return (
-    <div
-      onMouseMove={(ev) => setMousePosition({ x: ev.pageX, y: ev.pageY })}
-      ref={mainContainerRef}
-      className=" "
-    >
+    <div ref={mainContainerRef} className=" ">
       <div
-        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-45  absolute top-[20%] 2xl:top-[17%] left-[15%] xl:left-[22%] 2xl:left-[18%]  hidden   justify-center items-center"
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-45  absolute top-[20%] 2xl:top-[17%] left-[15%] xl:left-[22%] 2xl:left-[18%]  hidden lg:flex   justify-center items-center"
         id="card-1"
         ref={card1Ref}
       >
@@ -139,8 +747,8 @@ const Home = () => {
         </svg>
       </div>
       <div
-        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-90  absolute top-[47%] left-[5%] xl:left-[12%] 2xl:left-[9%]  hidden   justify-center items-center"
-        id="card-1"
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-90  absolute top-[47%] left-[5%] xl:left-[12%] 2xl:left-[9%]  hidden lg:flex   justify-center items-center"
+        id="card-2"
         ref={card2Ref}
       >
         <svg
@@ -154,8 +762,8 @@ const Home = () => {
         </svg>
       </div>
       <div
-        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-180  absolute top-[75%] left-[15%] xl:left-[22%] 2xl:left-[18%] hidden   justify-center items-center"
-        id="card-1"
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-180  absolute top-[75%] left-[15%] xl:left-[22%] 2xl:left-[18%] hidden lg:flex   justify-center items-center"
+        id="card-3"
         ref={card3Ref}
       >
         <svg
@@ -169,9 +777,9 @@ const Home = () => {
         </svg>
       </div>
       <div
-        className="2xl:w-52 2xl:h-32 w-28 h-28   -rotate-45  absolute top-[20%] 2xl:top-[17%] right-[15%] xl:right-[22%] 2xl:right-[18%] hidden   justify-center items-center"
-        id="card-1"
-        ref={card1Ref}
+        className="2xl:w-52 2xl:h-32 w-28 h-28   -rotate-45  absolute top-[20%] 2xl:top-[17%] right-[15%] xl:right-[22%] 2xl:right-[18%] hidden lg:flex   justify-center items-center"
+        id="card-4"
+        ref={card4Ref}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -184,9 +792,9 @@ const Home = () => {
         </svg>
       </div>
       <div
-        className="2xl:w-52 2xl:h-32 w-28 h-28   -rotate-90  absolute top-[47%] right-[5%] xl:right-[12%] 2xl:right-[9%] hidden   justify-center items-center"
-        id="card-1"
-        ref={card2Ref}
+        className="2xl:w-52 2xl:h-32 w-28 h-28   -rotate-90  absolute top-[47%] right-[5%] xl:right-[12%] 2xl:right-[9%] hidden lg:flex   justify-center items-center"
+        id="card-5"
+        ref={card5Ref}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -199,9 +807,9 @@ const Home = () => {
         </svg>
       </div>
       <div
-        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-12  absolute top-[75%] right-[15%] xl:right-[22%]  2xl:right-[18%] hidden   justify-center items-center"
-        id="card-1"
-        ref={card3Ref}
+        className="2xl:w-52 2xl:h-32 w-28 h-28   rotate-12  absolute top-[75%] right-[15%] xl:right-[22%]  2xl:right-[18%] hidden lg:flex   justify-center items-center"
+        id="card-6"
+        ref={card6Ref}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -218,12 +826,18 @@ const Home = () => {
       <div className=" min-h-screen  ">
         <Header />
         <MainSection />
-        <AboutSection />
-        <SectionSpace />
-        <FaqsSection />
-        {/* <SectionSpace /> */}
+        <div className="" ref={aboutContainerRef}>
+          <AboutSection />
+        </div>
 
-        <ServicesSection />
+        <SectionSpace />
+        <div ref={faqContainerRef}>
+          <FaqsSection />
+        </div>
+        {/* <SectionSpace /> */}
+        <div ref={servicesContainerRef}>
+          <ServicesSection />
+        </div>
         <SectionSpace />
         {/* <ServicesMarquee /> */}
         <ContactSection />

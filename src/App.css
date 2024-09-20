@@ -13,7 +13,7 @@ body {
   color: #000;
 }
 
-/* html.lenis,
+html.lenis,
 html.lenis body {
   height: auto;
 }
@@ -32,4 +32,4 @@ html.lenis body {
 
 .lenis.lenis-smooth iframe {
   pointer-events: none;
-} */
+}

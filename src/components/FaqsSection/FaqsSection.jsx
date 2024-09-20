@@ -17,12 +17,12 @@ const FaqsSection = () => {
       </h1>
       <hr className="mt-5 mb-2 border-2 border-cyan-500   " />
       <div className=" grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-4 xl:gap-20 ">
-        <div className="lg:col-span-1 flex flex-col mt-5 justify-center items-center  ">
-          <div className="  px-3  w-full">
+        <div className="lg:col-span-1 flex flex-col mt-5 justify-center items-center   ">
+          <div className="  px-3  w-full ">
             <Lottie
               animationData={FaqLottie}
-              loop={true}
-              className=" min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6 "
+              loop={false}
+              className=" min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6    "
             />
           </div>
           {/* <Fade> */}
