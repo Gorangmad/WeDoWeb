@@ -165,7 +165,7 @@ const Home = () => {
           card6Ref.current,
         ],
         {
-          top: "220%",
+          top: "235%",
           left: "20%",
           rotate: "270",
           scale: 1,
@@ -191,7 +191,7 @@ const Home = () => {
       tl3.to(
         card1Ref.current,
         {
-          top: "292%",
+          top: "310%",
           left: "31%",
           rotate: "45",
           scale: 0.5,
@@ -202,7 +202,7 @@ const Home = () => {
       tl3.to(
         card2Ref.current,
         {
-          top: "292%",
+          top: "310%",
           left: "60.2%",
           rotate: "12",
           scale: 0.5,
@@ -213,7 +213,7 @@ const Home = () => {
       tl3.to(
         card3Ref.current,
         {
-          top: "343%",
+          top: "365%",
           left: "31%",
           rotate: "36",
           scale: 0.5,
@@ -224,7 +224,7 @@ const Home = () => {
       tl3.to(
         card4Ref.current,
         {
-          top: "343%",
+          top: "365%",
           left: "60.2%",
           rotate: "57",
           scale: 0.5,
@@ -235,7 +235,7 @@ const Home = () => {
       tl3.to(
         card5Ref.current,
         {
-          top: "318%",
+          top: "338%",
           left: "31%",
           rotate: "99",
           scale: 0.5,
@@ -246,7 +246,7 @@ const Home = () => {
       tl3.to(
         card6Ref.current,
         {
-          top: "318%",
+          top: "338%",
           left: "60.2%",
           rotate: "270",
           scale: 0.5,
@@ -271,17 +271,18 @@ const Home = () => {
       tl4.to(
         card1Ref.current,
         {
-          top: "393%",
+          top: "430%",
           left: "30%",
           rotate: "45",
           scale: 0.8,
+          zIndex: 5,
         },
         "card2"
       );
       tl4.to(
         card2Ref.current,
         {
-          top: "403%",
+          top: "442%",
           left: "80%",
           rotate: "-45",
           scale: 0.8,
@@ -292,7 +293,7 @@ const Home = () => {
       tl4.to(
         card3Ref.current,
         {
-          top: "420%",
+          top: "460%",
           left: "48%",
           rotate: "315",
           scale: 0.8,
@@ -303,17 +304,18 @@ const Home = () => {
       tl4.to(
         card4Ref.current,
         {
-          top: "466%",
+          top: "505%",
           left: "28%",
           rotate: "45",
           scale: 0.8,
+          zIndex: 5,
         },
         "card2"
       );
       tl4.to(
         card5Ref.current,
         {
-          top: "463%",
+          top: "500%",
           left: "80%",
           rotate: "-45",
           scale: 0.8,
@@ -324,7 +326,7 @@ const Home = () => {
       tl4.to(
         card6Ref.current,
         {
-          top: "455%",
+          top: "490%",
           left: "50%",
           rotate: "163",
           scale: 0.8,
