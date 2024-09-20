@@ -998,7 +998,7 @@ const Home = () => {
         </svg>
       </div>
 
-      {/* <PreLoader /> */}
+      <PreLoader />
       <div className=" min-h-screen  ">
         <Header />
         <MainSection />

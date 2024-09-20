@@ -19,15 +19,15 @@ const Navbar = () => {
     });
   });
   return (
-    <nav className="flex items-center justify-between w-5/6 mx-auto right-0 left-0 absolute top-0 bg-white z-[999]">
+    <nav className="flex items-center justify-between w-5/6 mx-auto right-0 left-0 absolute top-0 bg-white  ">
       <div>
         <img src={Logo} className="w-40" />
       </div>
       <div className="">
         <ul className="relative flex items-center gap-x-14 text-lg text-cyan-500 font-semibold cursor-pointer">
-          <div className="overlay absolute   w-full h-full z-10 bg-transparent"></div>
+          <div className="overlay absolute   w-full h-full  bg-transparent"></div>
           <li
-            className="nav-links z-10"
+            className="nav-links "
             id="link-1"
             onMouseEnter={() => {
               gsap.to("#link-1", {
@@ -51,7 +51,7 @@ const Navbar = () => {
             <a className="tracking-wide">Home</a>
           </li>
           <li
-            className="nav-links z-10"
+            className="nav-links "
             id="link-2"
             onMouseEnter={() => {
               gsap.to("#link-2", {
@@ -75,7 +75,7 @@ const Navbar = () => {
             <a className="tracking-wide">About Us</a>
           </li>{" "}
           <li
-            className="nav-links z-10"
+            className="nav-links "
             id="link-3"
             onMouseEnter={() => {
               gsap.to("#link-3", {
@@ -99,7 +99,7 @@ const Navbar = () => {
             <a className="tracking-wide">Services</a>
           </li>{" "}
           <li
-            className="nav-links z-10"
+            className="nav-links "
             id="link-4"
             onMouseEnter={() => {
               gsap.to("#link-4", {
