@@ -336,55 +336,55 @@ const Home = () => {
 
     // -------------------LARGE SCREENS--------------------
 
-    mm.add("(min-width:1536px)", () => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: mainContainerRef.current,
-          start: "1% 0%",
-          end: "68% 50%",
-          scrub: 2,
+    // mm.add("(min-width:1536px)", () => {
+    //   const tl = gsap.timeline({
+    //     scrollTrigger: {
+    //       trigger: mainContainerRef.current,
+    //       start: "1% 0%",
+    //       end: "68% 50%",
+    //       scrub: 2,
 
-          markers: true,
-        },
-      });
+    //       markers: true,
+    //     },
+    //   });
 
-      tl.to(
-        [
-          card1Ref.current,
-          card2Ref.current,
-          card3Ref.current,
-          card4Ref.current,
-          card5Ref.current,
-          card6Ref.current,
-        ],
-        {
-          top: "130%",
-          left: "70%",
-          rotate: "360",
-          scale: 0.5,
-          duration: 0.5,
-        },
-        "first"
-      );
-      tl.to(
-        [
-          card1Ref.current,
-          card2Ref.current,
-          card3Ref.current,
-          card4Ref.current,
-          card5Ref.current,
-          card6Ref.current,
-        ],
-        {
-          top: "220%",
-          left: "20%",
-          rotate: "270",
-          scale: 1,
-          stagger: 0.08,
-          // duration: 0.1,
-        }
-      );
-    });
+    //   tl.to(
+    //     [
+    //       card1Ref.current,
+    //       card2Ref.current,
+    //       card3Ref.current,
+    //       card4Ref.current,
+    //       card5Ref.current,
+    //       card6Ref.current,
+    //     ],
+    //     {
+    //       top: "130%",
+    //       left: "70%",
+    //       rotate: "360",
+    //       scale: 0.5,
+    //       duration: 0.5,
+    //     },
+    //     "first"
+    //   );
+    //   tl.to(
+    //     [
+    //       card1Ref.current,
+    //       card2Ref.current,
+    //       card3Ref.current,
+    //       card4Ref.current,
+    //       card5Ref.current,
+    //       card6Ref.current,
+    //     ],
+    //     {
+    //       top: "220%",
+    //       left: "20%",
+    //       rotate: "270",
+    //       scale: 1,
+    //       stagger: 0.08,
+    //       // duration: 0.1,
+    //     }
+    //   );
+    // });
 
     // ----------ANIMATION 3------------
 
