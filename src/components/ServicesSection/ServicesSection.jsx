@@ -310,7 +310,7 @@ const ServicesSection = () => {
         </h2>
         <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
       </div>
-      <div className="flex flex-wrap justify-between  gap-10 lg:gap-20 xl:gap-10 ">
+      <div className="flex flex-wrap   justify-center md:justify-between  gap-10 lg:gap-20 xl:gap-10 ">
         <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
           {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
