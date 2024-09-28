@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import Logo from "../../assets/logo.png";
 import gsap from "gsap";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   useGSAP(() => {
@@ -26,101 +27,57 @@ const Navbar = () => {
       <div className="">
         <ul className="relative flex items-center gap-x-14 text-lg text-cyan-500 font-semibold cursor-pointer">
           <div className="overlay absolute   w-full h-full  bg-transparent"></div>
-          <li
-            className="nav-links "
-            id="link-1"
-            onMouseEnter={() => {
-              gsap.to("#link-1", {
-                color: "white",
-              });
-
-              gsap.to("#cursor", {
-                scale: 2,
-              });
-            }}
-            onMouseLeave={() => {
-              gsap.to("#link-1", {
-                color: "#06b6d4",
-              });
-
-              gsap.to("#cursor", {
-                scale: 1,
-              });
-            }}
-          >
-            <a className="tracking-wide">Home</a>
+          <li className="nav-links " id="link-1">
+            <Link
+              to="Home"
+              activeClass="text-red-500"
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={500}
+              className="   "
+            >
+              Home
+            </Link>
           </li>
-          <li
-            className="nav-links "
-            id="link-2"
-            onMouseEnter={() => {
-              gsap.to("#link-2", {
-                color: "white",
-              });
-
-              gsap.to("#cursor", {
-                scale: 2,
-              });
-            }}
-            onMouseLeave={() => {
-              gsap.to("#link-2", {
-                color: "#06b6d4",
-              });
-
-              gsap.to("#cursor", {
-                scale: 1,
-              });
-            }}
-          >
-            <a className="tracking-wide">About Us</a>
+          <li className="nav-links " id="link-2">
+            <Link
+              to="About"
+              activeClass="text-red-500"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={500}
+              className="   "
+            >
+              About Us
+            </Link>
           </li>{" "}
-          <li
-            className="nav-links "
-            id="link-3"
-            onMouseEnter={() => {
-              gsap.to("#link-3", {
-                color: "white",
-              });
-
-              gsap.to("#cursor", {
-                scale: 2,
-              });
-            }}
-            onMouseLeave={() => {
-              gsap.to("#link-3", {
-                color: "#06b6d4",
-              });
-
-              gsap.to("#cursor", {
-                scale: 1,
-              });
-            }}
-          >
-            <a className="tracking-wide">Services</a>
+          <li className="nav-links " id="link-3">
+            <Link
+              to="Services"
+              activeClass="text-red-500"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={500}
+              className="   "
+            >
+              Services
+            </Link>
           </li>{" "}
-          <li
-            className="nav-links "
-            id="link-4"
-            onMouseEnter={() => {
-              gsap.to("#link-4", {
-                color: "white",
-              });
-
-              gsap.to("#cursor", {
-                scale: 2,
-              });
-            }}
-            onMouseLeave={() => {
-              gsap.to("#link-4", {
-                color: "#06b6d4",
-              });
-
-              gsap.to("#cursor", {
-                scale: 1,
-              });
-            }}
-          >
-            <a className="tracking-wide">Contact Us</a>
+          <li className="nav-links " id="link-4">
+            <Link
+              to="Contact"
+              activeClass="text-red-500"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={500}
+              className="   "
+            >
+              Contact Us
+            </Link>
           </li>
         </ul>
       </div>

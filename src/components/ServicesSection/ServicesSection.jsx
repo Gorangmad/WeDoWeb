@@ -303,7 +303,7 @@ import React from "react";
 import CodeIcon from "@mui/icons-material/Code";
 const ServicesSection = () => {
   return (
-    <section className=" w-11/12 min-[450px]:w-5/6 mx-auto">
+    <section name="Services" className=" w-11/12 min-[450px]:w-5/6 mx-auto">
       <div className=" ">
         <h2 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
           Services

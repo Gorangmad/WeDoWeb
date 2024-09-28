@@ -52,7 +52,7 @@ const AboutSection = () => {
   // });
 
   return (
-    <section className=" w-11/12 min-[450px]:w-5/6 mx-auto">
+    <section name="About" className=" w-11/12 min-[450px]:w-5/6 mx-auto">
       <div>
         <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
           ABOUT US
@@ -121,6 +121,9 @@ const AboutSection = () => {
               loop={true}
               className=" min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6"
             />
+            <p className=" text-center text-4xl min-[600px]:text-[2.5rem] md:text-[3rem] lg:text-6xl  text-pretty   leading-relaxed  tracking-normal font-black  ">
+              Into <span className=" text-cyan-500">Clarity</span> Of Systems
+            </p>
           </div>
         </div>
       </div>
