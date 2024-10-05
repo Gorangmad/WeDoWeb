@@ -11,7 +11,7 @@ import Lottie from "lottie-react";
 
 const FaqsSection = () => {
   return (
-    <section className="w-11/12 min-[450px]:w-5/6 mx-auto mb-20 ">
+    <section className="w-11/12 min-[450px]:w-5/6 mx-auto mb-20 lg:mb-28 xl:mb-40 ">
       <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
         FAQs
       </h1>
@@ -41,7 +41,7 @@ const FaqsSection = () => {
               value="item-1"
               className="border-b border-black py-5"
             >
-              <AccordionTrigger className="font-medium  no-underline text-start text-xl md:text-2xl xl:text-4xl">
+              <AccordionTrigger className="font-medium  no-underline text-start text-xl md:text-2xl xl:text-3xl">
                 How exactly do you assist us?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
@@ -58,7 +58,7 @@ const FaqsSection = () => {
               value="item-2"
               className="border-b border-black py-5"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-4xl">
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
                 Which platforms do you utilize?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
@@ -75,8 +75,8 @@ const FaqsSection = () => {
               value="item-3"
               className="border-b border-black py-5"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-4xl">
-                How will you determine what to develop for our needs?
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
+                How will you assess our needs?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
                 We help our clients by stepping into their business consulting
@@ -92,7 +92,7 @@ const FaqsSection = () => {
               value="item-4"
               className="border-b border-black py-5"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-4xl">
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
                 How soon can we expect to see results?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
@@ -109,7 +109,7 @@ const FaqsSection = () => {
               value="item-5"
               className="border-b border-black py-5"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-4xl">
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
                 With whom will I collaborate?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">

@@ -10,10 +10,10 @@ const Footer = () => {
     <div className="min-h-screen lg:h-screen flex justify-end flex-col items-end">
       <div className="w-screen bg-black text-white flex justify-center items-end lg:h-5/6 ">
         <div className="w-full sm:w-5/6 2xl:w-3/4 px-8  sm:px-0 py-4 lg:relative h-full flex flex-col justify-end">
-          <div className="lg:absolute lg:-top-60  left-2 w-full ">
+          <div className="lg:absolute lg:-top-64 xl:-top-60  left-2 w-full ">
             <FooterCta />
           </div>
-          <footer className="footer   my-5 mb-10 md:my-20 lg:my-40">
+          <footer className="footer   my-5 mb-10 md:my-20 lg:mt-40 lg:mb-10">
             <aside>
               <img src={Logo} className="w-52 mb-4 rounded-lg" />
               <p className="text-xl font-medium w-4/5 ">

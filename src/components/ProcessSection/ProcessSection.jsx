@@ -7,10 +7,13 @@ import ProcessCardLeft from "../ProcessCardLeft/ProcessCardLeft";
 import CallLottie from "../../assets/Lotties/website2.json";
 import WebsiteLottie from "../../assets/Lotties/website.json";
 import OnlineWebsiteLottie from "../../assets/Lotties/website-online.json";
+import { useMediaQuery } from "react-responsive";
 
 const ProcessSection = () => {
+  const isMobile = useMediaQuery({ maxWidth: 1024 });
+
   return (
-    <section className=" w-11/12 min-[450px]:w-5/6 mx-auto">
+    <section className=" w-11/12 min-[450px]:w-5/6 mx-auto mb-20 lg:mb-28 xl:mb-40">
       <div>
         <Fade>
           <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
@@ -28,15 +31,25 @@ const ProcessSection = () => {
           text3="Individuelle Lösungen"
           lottie={CallLottie}
         />
-
-        <ProcessCardLeft
-          title="2. Website erstellen lassen"
-          desc="Auf Basis der besprochenen Anforderungen und Wünsche erstellt Ihnen Ihr persönlicher Webdesigner Ihre neue Website. Ausgezeichnete Designs individuell auf Sie und Ihr Business abgestimmt."
-          text1="Datei-Upload für Ihre Dateien"
-          text2="Website nach Ihren Wünschen"
-          text3="Jederzeit individuelle Betreuung"
-          lottie={WebsiteLottie}
-        />
+        {isMobile ? (
+          <ProcessCardRight
+            title="2. Website erstellen lassen"
+            desc="Auf Basis der besprochenen Anforderungen und Wünsche erstellt Ihnen Ihr persönlicher Webdesigner Ihre neue Website. Ausgezeichnete Designs individuell auf Sie und Ihr Business abgestimmt."
+            text1="Datei-Upload für Ihre Dateien"
+            text2="Website nach Ihren Wünschen"
+            text3="Jederzeit individuelle Betreuung"
+            lottie={WebsiteLottie}
+          />
+        ) : (
+          <ProcessCardLeft
+            title="2. Website erstellen lassen"
+            desc="Auf Basis der besprochenen Anforderungen und Wünsche erstellt Ihnen Ihr persönlicher Webdesigner Ihre neue Website. Ausgezeichnete Designs individuell auf Sie und Ihr Business abgestimmt."
+            text1="Datei-Upload für Ihre Dateien"
+            text2="Website nach Ihren Wünschen"
+            text3="Jederzeit individuelle Betreuung"
+            lottie={WebsiteLottie}
+          />
+        )}
 
         <ProcessCardRight
           title="3. Onlinestellung Ihrer Website"

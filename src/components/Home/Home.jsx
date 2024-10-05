@@ -673,12 +673,12 @@ const Home = () => {
         <div ref={servicesContainerRef}>
           <ServicesSection />
         </div>
-        <SectionSpace />
+        {/* <SectionSpace /> */}
         {/* <ServicesMarquee /> */}
         <ProcessSection />
-        <SectionSpace />
+        {/* <SectionSpace /> */}
         <ContactSection />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
