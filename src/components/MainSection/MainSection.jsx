@@ -17,7 +17,7 @@ const MainSection = () => {
         {/* <p className="text-start lg:text-center text-[3.25rem] leading-[2.7rem] min-[600px]:text-[2.5rem] md:text-[3rem] lg:text-9xl  text-pretty     tracking-normal font-black min-[550px]:w-5/6 min-[700px]:w-3/4 md:w-5/6 min-[900px]:w-3/4 lg:w-2/3 xl:w-3/5   min-[1760px]:w-1/2">
           Turn <p className="my-8 text-cyan-500">Complexity</p> Of Orders
         </p> */}
-        <p className="text-start lg:text-center text-5xl sm:text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl 2xl:leading-normal lg:leading-normal md:leading-normal sm:leading-normal leading-normal  font-black min-[550px]:w-5/6 min-[700px]:w-3/4 md:w-5/6 min-[900px]:w-3/4 lg:w-2/3 xl:w-3/5   min-[1760px]:w-1/2">
+        <p className="text-start lg:text-center text-5xl min-[400px]:text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl 2xl:leading-normal lg:leading-normal md:leading-normal sm:leading-normal leading-normal  font-black min-[550px]:w-5/6 min-[700px]:w-3/4 md:w-5/6 min-[900px]:w-3/4 lg:w-2/3 xl:w-3/5   min-[1760px]:w-1/2">
           Turn <p className=" text-cyan-500">Complexity</p> Of Orders
         </p>
         {/* </p> */}
