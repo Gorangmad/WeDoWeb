@@ -30,7 +30,7 @@ const Navbar = () => {
           <li className="nav-links " id="link-1">
             <Link
               to="Home"
-              activeClass="text-red-500"
+        
               spy={true}
               smooth={true}
               offset={-20}
@@ -43,7 +43,7 @@ const Navbar = () => {
           <li className="nav-links " id="link-2">
             <Link
               to="About"
-              activeClass="text-red-500"
+        
               spy={true}
               smooth={true}
               offset={-30}
@@ -56,7 +56,7 @@ const Navbar = () => {
           <li className="nav-links " id="link-3">
             <Link
               to="Services"
-              activeClass="text-red-500"
+        
               spy={true}
               smooth={true}
               offset={-30}
@@ -69,7 +69,7 @@ const Navbar = () => {
           <li className="nav-links " id="link-4">
             <Link
               to="Contact"
-              activeClass="text-red-500"
+        
               spy={true}
               smooth={true}
               offset={-30}
