@@ -52,7 +52,10 @@ const AboutSection = () => {
   // });
 
   return (
-    <section name="About" className=" w-11/12 min-[450px]:w-5/6 mx-auto">
+    <section
+      name="About"
+      className=" w-11/12 min-[450px]:w-5/6 mx-auto mb-10 min-[450px]:mb-0 lg:mb-28 xl:mb-40"
+    >
       <div>
         <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
           ABOUT US
@@ -61,14 +64,14 @@ const AboutSection = () => {
       </div>
       <div
         ref={aboutContainerRef}
-        className="grid grid-cols-1 lg:grid-cols-2 gap-20 2xl:gap-32  "
+        className="grid grid-cols-1 lg:grid-cols-2  lg:gap-10 2xl:gap-10  "
       >
         <div
           ref={textContainerRef}
           className="col-span-1 flex flex-col justify-start "
         >
           <div className="relative">
-            <p className="tracking-wide xl:tracking-wider leading-normal  md:leading-relaxed xl:leading-8 2xl:leading-9 sm:text-lg md:text-xl lg:text-lg min-[1200px]:text-xl 2xl:text-2xl text-gray-400 about-text">
+            <p className="tracking-wide text-justify text-sm min-[450px]:text-base xl:tracking-wider leading-normal  md:leading-relaxed xl:leading-8 2xl:leading-8 sm:text-lg md:text-xl lg:text-lg min-[1200px]:text-xl text-black about-text">
               At WEDO, we excel in providing cutting-edge digital solutions
               tailored to meet the unique needs of your business. Our diverse
               team of professionals combines deep industry knowledge with the
@@ -81,7 +84,7 @@ const AboutSection = () => {
               to align with your specific goals and challenges. Let WEDO be the
               catalyst for your digital transformation.
             </p>
-            <p
+            {/* <p
               ref={aboutTextRef}
               className="tracking-wide xl:tracking-wider  leading-normal md:leading-relaxed xl:leading-8 2xl:leading-9 sm:text-lg  md:text-xl lg:text-lg min-[1200px]:text-xl 2xl:text-2xl absolute  top-0 h-10 overflow-hidden about-text-hover"
             >
@@ -96,9 +99,9 @@ const AboutSection = () => {
               client-centric approach, ensuring that every project is customized
               to align with your specific goals and challenges. Let WEDO be the
               catalyst for your digital transformation.
-            </p>
+            </p> */}
           </div>
-          <div className="mt-10 w-full flex justify-start  ">
+          <div className="mt-12 w-full flex justify-start  ">
             <Button className="rounded-full text-xl px-6 py-8 font-semibold bg-cyan-500">
               <a
                 href="https://tally.so/r/w52XQo"
@@ -114,17 +117,17 @@ const AboutSection = () => {
             </Button>
           </div>
         </div>
-        <div className="col-span-1 flex justify-center items-center my-10 min-[450px]:my-20 sm:my-28  min-[900px]:my-36 lg:my-0 ">
-          <div ref={aboutLottieRef} className="absolute px-3  ">
+        <div className="col-span-1 flex flex-col justify-center xl:justify-between items-center my-10 min-[450px]:my-20 sm:my-28  min-[900px]:my-36 lg:my-0 ">
+          <div ref={aboutLottieRef} className=" px-3  ">
             <Lottie
               animationData={AboutLottie}
               loop={true}
-              className=" min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6"
+              className=" min-[450px]:w-5/6 md:w-3/4 lg:w-full mx-auto "
             />
-            <p className=" text-center text-4xl min-[600px]:text-[2.5rem] md:text-[3rem] lg:text-6xl  text-pretty   leading-relaxed  tracking-normal font-black  ">
-              Into <span className=" text-cyan-500">Clarity</span> Of Systems
-            </p>
           </div>
+          <p className="mt-10 text-center text-4xl min-[500px]:text-[2.5rem] md:text-[3rem] lg:text-[2rem] xl:text-[3rem]    leading-relaxed  tracking-normal font-black  ">
+            Into <span className=" text-cyan-500">Clarity</span> Of Systems
+          </p>
         </div>
       </div>
     </section>

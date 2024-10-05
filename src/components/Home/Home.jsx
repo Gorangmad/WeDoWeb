@@ -665,7 +665,7 @@ const Home = () => {
           <AboutSection />
         </div>
 
-        <SectionSpace />
+        {/* <SectionSpace /> */}
         <div ref={faqContainerRef}>
           <FaqsSection />
         </div>
