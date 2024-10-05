@@ -15,7 +15,7 @@ const FooterCta = () => {
         <div className=" ">
           <Button className="rounded-full text-xl lg:text-2xl px-6 py-8 font-semibold">
             <a
-              href="https://tally.so/r/w52XQo"
+              href="https://calendly.com/hazemdawood8"
               target="_blank"
               rel="noopener noreferrer"
             >

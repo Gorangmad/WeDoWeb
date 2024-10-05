@@ -35,15 +35,15 @@ const Footer = () => {
                 CONTACT US
               </h6>
               <a className="link link-hover  text-lg tracking-wide font-medium flex items-center mb-2.5">
-                <MailOutlineIcon className="me-1.5" /> hello@unorthodox.digital
+                <MailOutlineIcon className="me-1.5" /> hello@wedo.digital
               </a>
               <a className="link link-hover  text-lg tracking-wide font-medium flex items-center ">
-                <LocationOnIcon className="me-1.5" /> Pakistan
+                <LocationOnIcon className="me-1.5" /> Germany
               </a>
             </nav>
           </footer>
           <p className="border-t pt-3 w-full text-center sm:text-end text-lg font-medium lg:mb-5">
-            © All rights reserved. <span className="font-bold">Unorthodox</span>
+            © All rights reserved. <span className="font-bold">WEDO</span>
           </p>
         </div>
       </div>

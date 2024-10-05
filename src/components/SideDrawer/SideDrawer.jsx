@@ -24,41 +24,54 @@ const SideDrawer = () => {
       </div>
       <SheetContent side="left" className="w-80">
         <ul className="w-full flex flex-col justify-center items-center mt-2  text-lg">
-          <li className="border-b-2 border-neutral-300 w-full my-4  ">
+          <li className="border-b-2 border-cyan-500  w-full my-4  ">
             <SheetClose asChild>
               <Link
                 className="font-semibold flex justify-between  "
-                to="how-it-works"
+                to="Home"
                 spy={true}
                 smooth={true}
               >
-                How it works
+                Home
                 <KeyboardArrowRightIcon />
               </Link>
             </SheetClose>
           </li>
-          <li className="border-b-2 border-neutral-300 w-full my-4  ">
+          <li className="border-b-2 border-cyan-500  w-full my-4  ">
             <SheetClose asChild>
               <Link
                 className="font-semibold flex justify-between  "
-                to="services"
+                to="About"
+                spy={true}
+                smooth={true}
+              >
+                About
+                <KeyboardArrowRightIcon />
+              </Link>
+            </SheetClose>
+          </li>
+          <li className=" border-b-2 border-cyan-500 w-full my-4  ">
+            <SheetClose asChild>
+              <Link
+                className="font-semibold flex justify-between  "
+                to="Services"
                 spy={true}
                 smooth={true}
               >
                 Services
-                <KeyboardArrowRightIcon />
+                <KeyboardArrowRightIcon className="" />
               </Link>
             </SheetClose>
           </li>
-          <li className="border-b-2 border-neutral-300 w-full my-4  ">
+          <li className="border-b-2 border-cyan-500 w-full my-4  ">
             <SheetClose asChild>
               <Link
                 className="font-semibold flex justify-between  "
-                to="get-started"
+                to="Contact"
                 spy={true}
                 smooth={true}
               >
-                Get Started
+                Contact Us
                 <KeyboardArrowRightIcon />
               </Link>
             </SheetClose>
