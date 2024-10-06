@@ -24,7 +24,7 @@ const SideDrawer = () => {
       </div>
       <SheetContent side="left" className="w-80">
         <ul className="w-full flex flex-col justify-center items-center mt-2  text-lg">
-          <li className="border-b-2 border-cyan-500  w-full my-4  ">
+          <li className="border-b-2 border-violet-500  w-full my-4  ">
             <SheetClose asChild>
               <Link
                 className="font-semibold flex justify-between  "
@@ -37,7 +37,7 @@ const SideDrawer = () => {
               </Link>
             </SheetClose>
           </li>
-          <li className="border-b-2 border-cyan-500  w-full my-4  ">
+          <li className="border-b-2 border-violet-500  w-full my-4  ">
             <SheetClose asChild>
               <Link
                 className="font-semibold flex justify-between  "
@@ -50,7 +50,7 @@ const SideDrawer = () => {
               </Link>
             </SheetClose>
           </li>
-          <li className=" border-b-2 border-cyan-500 w-full my-4  ">
+          <li className=" border-b-2 border-violet-500 w-full my-4  ">
             <SheetClose asChild>
               <Link
                 className="font-semibold flex justify-between  "
@@ -63,7 +63,7 @@ const SideDrawer = () => {
               </Link>
             </SheetClose>
           </li>
-          <li className="border-b-2 border-cyan-500 w-full my-4  ">
+          <li className="border-b-2 border-violet-500 w-full my-4  ">
             <SheetClose asChild>
               <Link
                 className="font-semibold flex justify-between  "

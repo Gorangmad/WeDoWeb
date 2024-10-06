@@ -3,7 +3,7 @@
 // const ProcessCard = (props) => {
 //   const bgColorClass = clsx({
 //     "bg-red-300": props.bgColor === "red",
-//     "bg-purple-300": props.bgColor === "purple",
+//     "bg-violet-300": props.bgColor === "violet",
 //     "bg-emerald-300": props.bgColor === "emerald",
 //     "bg-amber-300": props.bgColor === "amber",
 //   });
@@ -38,7 +38,7 @@ const ProcessCard = () => {
         />
       </div>
       <div className="col-span-1 bg-white  ">
-        <p className="text-cyan-500 text-xl font-semibold mt-16">
+        <p className="text-violet-500 text-xl font-semibold mt-16">
           1. Kostenlose Beratung buchen
         </p>
         <p className="text-xl mt-10 leading-relaxed">
@@ -49,15 +49,15 @@ const ProcessCard = () => {
 
         <div className="mt-10">
           <p className="text-lg flex items-center my-2">
-            <DoneIcon className="text-cyan-500 me-1.5" /> Experten als
+            <DoneIcon className="text-violet-500 me-1.5" /> Experten als
             Ansprechpartner
           </p>
           <p className="text-lg flex items-center my-2">
-            <DoneIcon className="text-cyan-500 me-1.5" /> Experten als
+            <DoneIcon className="text-violet-500 me-1.5" /> Experten als
             Ansprechpartner
           </p>
           <p className="text-lg flex items-center my-2">
-            <DoneIcon className="text-cyan-500 me-1.5" /> Experten als
+            <DoneIcon className="text-violet-500 me-1.5" /> Experten als
             Ansprechpartner
           </p>
         </div>

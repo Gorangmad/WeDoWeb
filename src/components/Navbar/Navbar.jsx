@@ -25,12 +25,11 @@ const Navbar = () => {
         <img src={Logo} className="w-40" />
       </div>
       <div className="">
-        <ul className="relative flex items-center gap-x-14 text-lg text-cyan-500 font-semibold cursor-pointer">
+        <ul className="relative flex items-center gap-x-14 text-lg text-violet-500 font-semibold cursor-pointer">
           <div className="overlay absolute   w-full h-full  bg-transparent"></div>
           <li className="nav-links " id="link-1">
             <Link
               to="Home"
-        
               spy={true}
               smooth={true}
               offset={-20}
@@ -43,7 +42,6 @@ const Navbar = () => {
           <li className="nav-links " id="link-2">
             <Link
               to="About"
-        
               spy={true}
               smooth={true}
               offset={-30}
@@ -56,7 +54,6 @@ const Navbar = () => {
           <li className="nav-links " id="link-3">
             <Link
               to="Services"
-        
               spy={true}
               smooth={true}
               offset={-30}
@@ -69,7 +66,6 @@ const Navbar = () => {
           <li className="nav-links " id="link-4">
             <Link
               to="Contact"
-        
               spy={true}
               smooth={true}
               offset={-30}

@@ -10,10 +10,10 @@ const ContactSection = () => {
       className=" w-11/12 min-[450px]:w-5/6 mx-auto lg:mb-44"
     >
       <div className=" ">
-        <h2 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
+        <h2 className="text-violet-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
           Contact Us
         </h2>
-        <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
+        <hr className="mt-5 mb-10 border-2 border-violet-500   " />
       </div>
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 pt-5">
         <div className="col-span-1">
@@ -23,14 +23,14 @@ const ContactSection = () => {
           <form className="flex flex-col  gap-y-10 lg:gap-y-16">
             <input
               placeholder="Full Name"
-              className="border-2 rounded-lg border-cyan-500  p-2.5 text-lg  outline-none"
+              className="border-2 rounded-lg border-violet-500  p-2.5 text-lg  outline-none"
             />
             <input
               placeholder="Email"
-              className="border-2 rounded-lg border-cyan-500  p-2.5 text-lg  outline-none"
+              className="border-2 rounded-lg border-violet-500  p-2.5 text-lg  outline-none"
             />
             <textarea
-              className="textarea textarea-bordered border-cyan-500 border-2 h-28 text-lg"
+              className="textarea textarea-bordered border-violet-500 border-2 h-28 text-lg"
               placeholder="Your Message"
             ></textarea>
             <div>
