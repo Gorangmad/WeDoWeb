@@ -2,7 +2,7 @@
 .button {
   /*appearance: button;
   */
-  background-color: #1899d6;
+  background-color: #743afa;
   border: solid transparent;
   border-radius: 10px;
   border-width: 0 0 4px;
@@ -35,7 +35,7 @@
 
 .button:after {
   background-clip: padding-box;
-  background-color: #1cb0f6;
+  background-color: #8b5cf6;
   border: solid transparent;
   border-radius: 10px;
   border-width: 0 0 4px;
