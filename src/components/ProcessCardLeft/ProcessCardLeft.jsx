@@ -1,6 +1,7 @@
 import React from "react";
 import DoneIcon from "@mui/icons-material/Done";
 import Lottie from "lottie-react";
+import { Fade } from "react-awesome-reveal";
 
 const ProcessCardLeft = (props) => {
   return (
@@ -26,13 +27,15 @@ const ProcessCardLeft = (props) => {
           </p>
         </div>
       </div>
-      <div className="col-span-1 flex justify-center items-center  ">
-        <Lottie
-          animationData={props.lottie}
-          loop={true}
-          className="min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6 "
-        />
-      </div>
+      <Fade direction="up">
+        <div className="col-span-1 flex justify-center items-center  ">
+          <Lottie
+            animationData={props.lottie}
+            loop={true}
+            className="min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6 "
+          />
+        </div>
+      </Fade>
     </div>
   );
 };
