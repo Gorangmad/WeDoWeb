@@ -5,6 +5,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
+import { Route, Routes } from "react-router-dom";
+import ImpressumPage from "./containers/ImpressumPage/ImpressumPage";
 
 function App() {
   useEffect(() => {
@@ -21,7 +23,10 @@ function App() {
   });
   return (
     <div className="">
-      <HomePage />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/impressum" element={<ImpressumPage />} />
+      </Routes>
     </div>
   );
 }

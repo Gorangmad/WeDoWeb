@@ -4,6 +4,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 import Logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,9 +27,12 @@ const Footer = () => {
               <a className="link link-hover  text-lg tracking-wide font-medium  mb-2.5">
                 Home
               </a>
-              <a className="link link-hover text-lg tracking-wide font-medium">
-                Products
-              </a>
+              <Link
+                to="/impressum"
+                className="link link-hover text-lg tracking-wide font-medium"
+              >
+                Impressum
+              </Link>
             </nav>
             <nav>
               <h6 className="footer-title text-xl tracking-wider">
