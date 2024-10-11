@@ -29,9 +29,15 @@ const Footer = () => {
               </a>
               <Link
                 to="/impressum"
-                className="link link-hover text-lg tracking-wide font-medium"
+                className="link link-hover text-lg tracking-wide font-medium mb-2.5"
               >
                 Impressum
+              </Link>
+              <Link
+                to="/datenschutz"
+                className="link link-hover text-lg tracking-wide font-medium"
+              >
+                Datenschutz
               </Link>
             </nav>
             <nav>

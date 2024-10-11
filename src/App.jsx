@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import { Route, Routes } from "react-router-dom";
 import ImpressumPage from "./containers/ImpressumPage/ImpressumPage";
+import DatenschutzPage from "./containers/DatenschutzPage/DatenschutzPage";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/impressum" element={<ImpressumPage />} />
+        <Route path="/datenschutz" element={<DatenschutzPage />} />
       </Routes>
     </div>
   );
