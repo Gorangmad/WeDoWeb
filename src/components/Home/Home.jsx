@@ -658,7 +658,7 @@ const Home = () => {
       </div> */}
 
       <PreLoader />
-      <div className=" min-h-screen  ">
+      <div className=" min-h-screen  relative">
         <Header />
         <MainSection />
         <div className="" ref={aboutContainerRef}>
