@@ -53,7 +53,7 @@ const PreLoader = () => {
   });
 
   return (
-    <div className="overlay" ref={loaderRef}>
+    <div className="overlay z-50" ref={loaderRef}>
       <div className="container ">
         <p className="text-violet-500 font-black company-name">WEDO</p>
         <div className="text-wrapper">
