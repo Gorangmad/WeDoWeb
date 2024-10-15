@@ -46,7 +46,7 @@ const ImpressumSection = () => {
         /> */}
       </div>
       <div className="flex flex-col items-start gap-y-12 my-16">
-        <p className="text-black  text-2xl md:text-3xl lg:text-4xl font-[550] text-center uppercase w-full ">
+        <p className="text-black  text-3xl lg:text-4xl font-[550] text-center uppercase w-full ">
           Haftungsausschluss
         </p>
         <ImpressumSecondaryCard
