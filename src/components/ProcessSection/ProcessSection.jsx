@@ -16,10 +16,10 @@ const ProcessSection = () => {
     <section className=" w-11/12 min-[450px]:w-5/6 mx-auto mb-20 lg:mb-28 xl:mb-40">
       <div>
         <Fade>
-          <h1 className="text-violet-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
+          <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
             How It Works!
           </h1>
-          <hr className="mt-5 mb-5 2xl:mb-10 border-2 border-violet-500   " />
+          <hr className="mt-5 mb-5 2xl:mb-10 border-2 border-cyan-500   " />
         </Fade>
       </div>
       <div className="flex flex-col gap-y-10 lg:gap-y-0">

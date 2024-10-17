@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const SecondaryNavbar = () => {
   return (
-    <nav className="bg-violet-500  py-5 ">
+    <nav className="bg-cyan-500  py-5 ">
       <div className="w-5/6 mx-auto ">
         <li className="flex">
           <Link

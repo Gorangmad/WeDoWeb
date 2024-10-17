@@ -3,7 +3,7 @@ import React from "react";
 const ImpressumCard = (props) => {
   return (
     <div>
-      <p className="text-lg font-bold text-violet-500 tracking-wide">
+      <p className="text-lg font-bold text-cyan-500 tracking-wide">
         {props.title}
       </p>
       <p className="text-lg tracking-wide ">{props.text1}</p>

@@ -4,7 +4,7 @@ import { Button } from "@/shadcn-components/ui/button";
 
 const FooterCta = () => {
   return (
-    <div className="w-full bg-image bg-violet-300 flex flex-col justify-center items-center text-black p-8 my-8 py-16 lg:py-12 xl:py-20">
+    <div className="w-full bg-image bg-cyan-300 flex flex-col justify-center items-center text-black p-8 my-8 py-16 lg:py-12 xl:py-20">
       <p className="font-black text-3xl min-[400px]:text-4xl sm:text-6xl lg:text-7xl text-center mb-7 lg:mb-10">
         Still got some questions?
       </p>

@@ -115,10 +115,10 @@ gsap.registerPlugin(ScrollTrigger);
 //     <section className=" w-5/6 mx-auto services">
 {
   /* <div className=" ">
-  <h2 className="col-span-4 text-violet-500 font-black   text-7xl my-10">
+  <h2 className="col-span-4 text-cyan-500 font-black   text-7xl my-10">
     Services
   </h2>
-  <hr className="mt-5 mb-10 border-2 border-violet-500   " />
+  <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
 </div> */
 }
 //       <div className="">
@@ -255,12 +255,12 @@ gsap.registerPlugin(ScrollTrigger);
 //   return (
 //     <section className=" text-black  w-5/6 mx-auto py-44 max-[500px]:ps-6 ps-8 md:ps-12 lg:ps-16">
 // <div className=" ">
-//   <h2 className="col-span-4 text-violet-500 font-black   text-7xl my-10">
+//   <h2 className="col-span-4 text-cyan-500 font-black   text-7xl my-10">
 //     Services
 //   </h2>
-//   <hr className="mt-5 mb-10 border-2 border-violet-500   " />
+//   <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
 // </div>
-//       <div className="elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-violet-500 flex items-center justify-between">
+//       <div className="elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-cyan-500 flex items-center justify-between">
 //         <img src={Service1} alt="" className="rounded-lg " />
 //         <p className="max-[500px]:text-[2.75rem] text-5xl sm:text-6xl lg:text-8xl 2xl:text-7xl font-black uppercase tracking-wide opacity-75">
 //           Web Development
@@ -272,21 +272,21 @@ gsap.registerPlugin(ScrollTrigger);
 //           />
 //         </p> */}
 //       </div>
-//       <div className="elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-violet-500 flex items-center justify-between">
+//       <div className="elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-cyan-500 flex items-center justify-between">
 //         <img src={Service2} alt="" className=" rounded-lg" />
 //         <p className="max-[500px]:text-[2.75rem] text-5xl sm:text-6xl lg:text-8xl 2xl:text-7xl font-black uppercase tracking-wide opacity-75">
 //           App Development
 //         </p>
 //         {/* <p className="text-sm sm:text-base">2022</p> */}
 //       </div>
-//       <div className=" elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-violet-500 flex items-center justify-between">
+//       <div className=" elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-cyan-500 flex items-center justify-between">
 //         <img src={Service3} alt="" className=" rounded-lg" />
 //         <p className="max-[500px]:text-[2.75rem] text-5xl sm:text-6xl lg:text-8xl 2xl:text-7xl font-black uppercase tracking-wide opacity-75">
 //           IT Consultancy
 //         </p>
 //         {/* <p className="text-sm sm:text-base">2021</p> */}
 //       </div>
-//       <div className=" elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-violet-500 flex items-center justify-between">
+//       <div className=" elem border-b-2  py-7 md:py-10 lg:py-16 xl:py-20 border-cyan-500 flex items-center justify-between">
 //         <img src={Service4} alt="" className="rounded-lg " />
 //         <p className="max-[500px]:text-[2.75rem] text-5xl sm:text-6xl lg:text-8xl 2xl:text-7xl font-black uppercase tracking-wide opacity-75">
 //           Digital Marketing
@@ -308,14 +308,14 @@ const ServicesSection = () => {
       className=" w-11/12 min-[450px]:w-5/6 mx-auto  mb-20 lg:mb-28 xl:mb-40"
     >
       <div className=" ">
-        <h2 className="text-violet-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
+        <h2 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
           Services
         </h2>
-        <hr className="mt-5 mb-10 border-2 border-violet-500   " />
+        <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
       </div>
       <div className="flex flex-wrap   justify-center md:justify-between  gap-10 lg:gap-20 xl:gap-10 ">
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-violet-400  p-8 rounded-xl overflow-hidden "></div> */}
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
+          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -323,7 +323,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>
@@ -333,8 +333,8 @@ const ServicesSection = () => {
             lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw
           </p>
         </div>
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-violet-400  p-8 rounded-xl overflow-hidden "></div> */}
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
+          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -342,7 +342,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>
@@ -352,8 +352,8 @@ const ServicesSection = () => {
             lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
           </p>
         </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-violet-400  p-8 rounded-xl overflow-hidden "></div> */}
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
+          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -361,7 +361,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>
@@ -371,8 +371,8 @@ const ServicesSection = () => {
             lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
           </p>
         </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-violet-400  p-8 rounded-xl overflow-hidden "></div> */}
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
+          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -380,7 +380,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>
@@ -390,8 +390,8 @@ const ServicesSection = () => {
             lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
           </p>
         </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-violet-400  p-8 rounded-xl overflow-hidden "></div> */}
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
+          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -399,7 +399,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>
@@ -409,8 +409,8 @@ const ServicesSection = () => {
             lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
           </p>
         </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-violet-400  p-8 rounded-xl overflow-hidden "></div> */}
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
+          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -418,7 +418,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>
@@ -428,7 +428,7 @@ const ServicesSection = () => {
             lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
           </p>
         </div>
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -436,7 +436,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>
@@ -446,7 +446,7 @@ const ServicesSection = () => {
             lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
           </p>
         </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-violet-400 duration-300">
+        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -454,7 +454,7 @@ const ServicesSection = () => {
               width="60"
               height="60"
               fill="currentColor"
-              className="bg-violet-400 text-white rounded-full p-3"
+              className="bg-cyan-400 text-white rounded-full p-3"
             >
               <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
             </svg>

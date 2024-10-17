@@ -57,10 +57,10 @@ const AboutSection = () => {
       className=" w-11/12 min-[450px]:w-5/6 mx-auto mb-10 min-[450px]:mb-0 lg:mb-28 xl:mb-40"
     >
       <div>
-        <h1 className="text-violet-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
+        <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
           ABOUT US
         </h1>
-        <hr className="mt-5 mb-5 2xl:mb-10 border-2 border-violet-500   " />
+        <hr className="mt-5 mb-5 2xl:mb-10 border-2 border-cyan-500   " />
       </div>
       <div
         ref={aboutContainerRef}
@@ -102,7 +102,7 @@ const AboutSection = () => {
             </p> */}
           </div>
           <div className="mt-12 w-full flex justify-start  ">
-            <Button className="rounded-full text-xl px-6 py-8 font-semibold bg-violet-500">
+            <Button className="rounded-full text-xl px-6 py-8 font-semibold bg-cyan-500">
               <a
                 href="https://tally.so/r/w52XQo"
                 target="_blank"
@@ -126,7 +126,7 @@ const AboutSection = () => {
             />
           </div>
           <p className="mt-10 text-center text-4xl min-[500px]:text-[2.5rem] md:text-[3rem] lg:text-[2rem] xl:text-[3rem]    leading-relaxed  tracking-normal font-black  ">
-            Into <span className=" text-violet-500">Clarity</span> Of Systems
+            Into <span className=" text-cyan-500">Clarity</span> Of Systems
           </p>
         </div>
       </div>

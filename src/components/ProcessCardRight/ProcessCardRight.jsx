@@ -16,22 +16,22 @@ const ProcessCardRight = (props) => {
         </div>
       </Fade>
       <div className="col-span-1 bg-white ">
-        <p className="text-violet-500 text-xl font-semibold lg:mt-10 xl:mt-16">
+        <p className="text-cyan-500 text-xl font-semibold lg:mt-10 xl:mt-16">
           {props.title}
         </p>
         <p className="text-lg sm:text-xl mt-10 leading-relaxed">{props.desc}</p>
 
         <div className="mt-10">
           <p className="text-lg flex items-center my-2">
-            <DoneIcon className="text-violet-500 me-1.5" />
+            <DoneIcon className="text-cyan-500 me-1.5" />
             {props.text1}
           </p>
           <p className="text-lg flex items-center my-2">
-            <DoneIcon className="text-violet-500 me-1.5" />
+            <DoneIcon className="text-cyan-500 me-1.5" />
             {props.text2}
           </p>
           <p className="text-lg flex items-center my-2">
-            <DoneIcon className="text-violet-500 me-1.5" />
+            <DoneIcon className="text-cyan-500 me-1.5" />
             {props.text3}
           </p>
         </div>
