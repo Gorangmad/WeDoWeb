@@ -68,11 +68,10 @@ const Home = () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: mainContainerRef.current,
-          start: "1.5% 0%",
-          end: "17% 50%",
+          start: "5% 0%",
+          end: "75% 0%",
           scrub: 2,
-
-          markers: true,
+          // markers: true,
         },
       });
 
@@ -90,7 +89,7 @@ const Home = () => {
           left: "70%",
           rotate: "360",
           scale: 0.5,
-          duration: 5,
+          // duration: 5,
         },
         "first"
       );
@@ -99,8 +98,8 @@ const Home = () => {
       const tl2 = gsap.timeline({
         scrollTrigger: {
           trigger: aboutContainerRef.current,
-          start: "70% 50%",
-          end: "155% 50%",
+          start: "50% 50%",
+          end: "100% 10%",
           scrub: 2,
 
           markers: true,
@@ -131,8 +130,8 @@ const Home = () => {
       const tl3 = gsap.timeline({
         scrollTrigger: {
           trigger: faqContainerRef.current,
-          start: "50% 50%",
-          end: "240% 50%",
+          start: "50% 20%",
+          end: "120% 0%",
           scrub: 2,
 
           markers: true,
@@ -515,7 +514,7 @@ const Home = () => {
   });
 
   return (
-    <div ref={mainContainerRef} className=" ">
+    <div className=" ">
       <div
         className=" w-28 h-28 2xl:w-44 2xl:h-28   rotate-45  absolute top-[20%] 2xl:top-[17%] left-[18%] 2xl:left-[22%]  hidden xl:flex   justify-center items-center"
         id="card-1"
@@ -610,7 +609,9 @@ const Home = () => {
       {/* <PreLoader /> */}
       <div className=" min-h-screen  relative">
         <Header />
-        <MainSection />
+        <div ref={mainContainerRef}>
+          <MainSection />
+        </div>
         <div className="" ref={aboutContainerRef}>
           <AboutSection />
         </div>
