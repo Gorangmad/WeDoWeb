@@ -72,17 +72,19 @@ const AboutSection = () => {
         >
           <div className="relative">
             <p className="tracking-wide text-justify text-sm min-[450px]:text-base xl:tracking-wider leading-normal  md:leading-relaxed xl:leading-8 2xl:leading-8 sm:text-lg md:text-xl lg:text-lg min-[1200px]:text-xl text-black about-text">
-              At WEDO, we excel in providing cutting-edge digital solutions
-              tailored to meet the unique needs of your business. Our diverse
-              team of professionals combines deep industry knowledge with the
-              latest technological advancements to deliver innovative and
-              effective strategies. From building dynamic websites and mobile
-              applications to implementing comprehensive digital marketing
-              campaigns, we are dedicated to driving your success in a
-              competitive digital landscape. We pride ourselves on a
-              client-centric approach, ensuring that every project is customized
-              to align with your specific goals and challenges. Let WEDO be the
-              catalyst for your digital transformation.
+              Bei WEDO zeichnen wir uns durch die Bereitstellung modernster
+              digitaler Lösungen aus, die auf die individuellen Anforderungen
+              Ihres Unternehmens zugeschnitten sind. Unser vielfältiges Team aus
+              Fachleuten kombiniert fundierte Branchenkenntnisse mit den
+              neuesten technologischen Fortschritten, um innovative und
+              effektive Strategien zu entwickeln. Von der Erstellung dynamischer
+              Websites und mobiler Anwendungen bis hin zur Implementierung
+              umfassender digitaler Marketingkampagnen setzen wir uns dafür ein,
+              Ihren Erfolg in einer wettbewerbsintensiven digitalen Landschaft
+              voranzutreiben. Wir sind stolz auf einen kundenorientierten Ansatz
+              und stellen sicher, dass jedes Projekt auf Ihre spezifischen Ziele
+              und Herausforderungen zugeschnitten ist. Lassen Sie WEDO der
+              Katalysator für Ihre digitale Transformation sein.
             </p>
             {/* <p
               ref={aboutTextRef}
@@ -126,7 +128,8 @@ const AboutSection = () => {
             />
           </div>
           <p className="mt-10 text-center text-4xl min-[500px]:text-[2.5rem] md:text-[3rem] lg:text-[2rem] xl:text-[3rem]    leading-relaxed  tracking-normal font-black  ">
-            Into <span className=" text-cyan-500">Clarity</span> Of Systems
+            in <span className=" text-cyan-500">Klarheit</span> von Systemen
+            umwandeln
           </p>
         </div>
       </div>

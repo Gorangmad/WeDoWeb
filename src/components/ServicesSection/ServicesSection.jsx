@@ -301,6 +301,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 import React from "react";
 import CodeIcon from "@mui/icons-material/Code";
+import ServicesCard from "../ServicesCard/ServicesCard";
 const ServicesSection = () => {
   return (
     <section
@@ -308,162 +309,71 @@ const ServicesSection = () => {
       className=" w-11/12 min-[450px]:w-5/6 mx-auto  mb-20 lg:mb-28 xl:mb-40"
     >
       <div className=" ">
-        <h2 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
-          Services
+        <h2 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl 2xl:leading-tight">
+          Ihr Bestellsystem,
+          <br />
+          maßgeschneidert und effizient
         </h2>
-        <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
+        <hr className="mt-5 mb-12 border-2 border-cyan-500   " />
+        <p className=" text-justify w-2/3 mb-12 text-gray-600">
+          Unser Bestellsystem bietet Großhändlern die Möglichkeit, Bestellungen
+          einfacher, schneller und kostengünstiger abzuwickeln - ohne
+          Kompromisse bei der Qualität. Unsere Lösung ist vollständig anpassbar
+          und passt sich nahtlos an die speziellen Anforderungen Ihres
+          Unternehmens an. Egal, ob Sie große Volumen verwalten oder spezifische
+          Funktionen benötigen, wir bieten Ihnen die Flexibilität und Kontrolle,
+          die Sie brauchen.
+        </p>
       </div>
       <div className="flex flex-wrap   justify-center md:justify-between  gap-10 lg:gap-20 xl:gap-10 ">
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">Web Development</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw
-          </p>
-        </div>
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">App Development</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
-          </p>
-        </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">IT Consultation</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
-          </p>
-        </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">Digital Marketing</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
-          </p>
-        </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">Web Development</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
-          </p>
-        </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">Web Development</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
-          </p>
-        </div>
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">Web Development</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
-          </p>
-        </div>{" "}
-        <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-80 h-64 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              fill="currentColor"
-              className="bg-cyan-400 text-white rounded-full p-3"
-            >
-              <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
-            </svg>
-          </div>
-          <p className="text-2xl font-bold  mb-6 mt-4 ">Web Development</p>
-          <p className="text- font-medium">
-            lorem ipsum dollard dwaodhiou dniowadnbio dnoawndioaw{" "}
-          </p>
-        </div>
+        <ServicesCard
+          title="Keine Provisionen"
+          desc="Im
+Gegensatz zu Drittanbieter-
+Plattformen zahlen Sie bei uns nur
+eine feste Gebühr und haben volle
+Kostenkontrolle"
+        />
+        <ServicesCard
+          title="Individuelle Anpassungen"
+          desc="Wir bauen Ihr System genau so,
+wie Sie es brauchen - kein
+unnötiger Schnickschnack, nur die
+Funktionen, die für Sie wichtig
+sind"
+        />
+        <ServicesCard
+          title="Schnelle Implementierung"
+          desc="
+Unsere Systeme lassen sich
+schnell und effizient integrieren,
+sodass Sie direkt von den Vorteilen
+profitieren"
+        />
+        <ServicesCard
+          title="Langfristige Betreuung"
+          desc="Wir
+bieten kontinuierliche
+Unterstützung und sorgen dafür,
+dass Ihr System immer auf dem
+neuesten Stand bleibt"
+        />
+        <ServicesCard
+          title="Langfristige Betreuung"
+          desc="Wir
+bieten kontinuierliche
+Unterstützung und sorgen dafür,
+dass Ihr System immer auf dem
+neuesten Stand bleibt"
+        />{" "}
+        <ServicesCard
+          title="Langfristige Betreuung"
+          desc="Wir
+bieten kontinuierliche
+Unterstützung und sorgen dafür,
+dass Ihr System immer auf dem
+neuesten Stand bleibt"
+        />
       </div>
     </section>
   );
