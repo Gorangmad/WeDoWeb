@@ -63,6 +63,8 @@ const Home = () => {
     //   "first"
     // );
 
+    // -------------------------------------BELOW IS THE CODE WHICH WAS RUNNING ON THE LOOM VIDEO.....
+
     mm.add("(min-width:1280px)", () => {
       // FIRST ANIMATION
       const tl = gsap.timeline({
@@ -130,8 +132,8 @@ const Home = () => {
       const tl3 = gsap.timeline({
         scrollTrigger: {
           trigger: faqContainerRef.current,
-          start: "50% 20%",
-          end: "120% 0%",
+          start: "80% 50%",
+          end: "150% 0%",
           scrub: 2,
 
           markers: true,
@@ -285,6 +287,8 @@ const Home = () => {
         "card2"
       );
     });
+
+    // ------------------------------------------------------- IT ENDS HERE
 
     // -------------------LARGE SCREENS--------------------
 
