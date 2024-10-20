@@ -121,7 +121,7 @@ const Home = () => {
           left: "20%",
           rotate: "270",
           scale: 1,
-          duration: 1,
+          duration: 2,
           stagger: 0.2,
         },
         "second"
@@ -132,7 +132,7 @@ const Home = () => {
       const tl3 = gsap.timeline({
         scrollTrigger: {
           trigger: faqContainerRef.current,
-          start: "80% 50%",
+          start: "0% 0%",
           end: "150% 0%",
           scrub: 2,
 
