@@ -22,6 +22,7 @@ const Home = () => {
   const aboutContainerRef = useRef();
   const faqContainerRef = useRef();
   const servicesContainerRef = useRef();
+  const processContainerRef = useRef();
 
   const card1Ref = useRef();
   const card2Ref = useRef();
@@ -207,85 +208,236 @@ const Home = () => {
         "card"
       );
 
-      //   // 4th ANIMATION
+      //   // 4TH ANIMATION
 
       const tl4 = gsap.timeline({
         scrollTrigger: {
-          trigger: servicesContainerRef.current,
-          start: "80% 50%",
-          end: "150% 50%",
+          trigger: processContainerRef.current,
+          start: "20% 100%",
+          end: "80% 50%",
           scrub: 2,
 
-          // markers: true,
+          markers: true,
         },
       });
 
       tl4.to(
-        card1Ref.current,
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
         {
-          top: "430%",
-          left: "30%",
-          rotate: "45",
-          scale: 0.8,
-          zIndex: 5,
+          top: "480%",
+          left: "20%",
+          rotate: "270",
+          // scale: 1,
+          duration: 2,
+          stagger: 0.2,
         },
-        "card2"
+        "card3"
       );
+
       tl4.to(
-        card2Ref.current,
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
         {
-          top: "442%",
-          left: "80%",
-          rotate: "-45",
-          scale: 0.8,
-          zIndex: 5,
+          top: "530%",
+          left: "70%",
+          rotate: "270",
+          // scale: 1,
+          duration: 2,
+          stagger: 0.2,
         },
-        "card2"
+        "card4"
       );
+
       tl4.to(
-        card3Ref.current,
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
         {
-          top: "460%",
-          left: "48%",
-          rotate: "315",
-          scale: 0.8,
-          zIndex: 5,
+          top: "580%",
+          left: "20%",
+          rotate: "270",
+          // scale: 1,
+          duration: 2,
+          stagger: 0.2,
         },
-        "card2"
+        "card5"
       );
-      tl4.to(
-        card4Ref.current,
-        {
-          top: "505%",
-          left: "28%",
-          rotate: "45",
-          scale: 0.8,
-          zIndex: 5,
-        },
-        "card2"
-      );
-      tl4.to(
-        card5Ref.current,
-        {
-          top: "500%",
-          left: "80%",
-          rotate: "-45",
-          scale: 0.8,
-          zIndex: 5,
-        },
-        "card2"
-      );
-      tl4.to(
-        card6Ref.current,
-        {
-          top: "490%",
-          left: "50%",
-          rotate: "163",
-          scale: 0.8,
-          zIndex: 5,
-        },
-        "card2"
-      );
+
+      // const tl4 = gsap.timeline({
+      //   scrollTrigger: {
+      //     trigger: processContainerRef.current,
+      //     start: "-80% 0%",
+      //     end: "40% 0%",
+      //     scrub: true,
+
+      //     markers: true,
+      //   },
+      // });
+
+      // tl4.to(
+      //   card1Ref.current,
+      //   {
+      //     top: "460%",
+      //     left: "5%",
+      //     rotate: "0",
+      //     // scale: 1,
+      //     // duration: 0.01,
+      //   },
+      //   "card2"
+      // );
+      // tl4.to(
+      //   card2Ref.current,
+      //   {
+      //     top: "460%",
+      //     left: "85%",
+      //     rotate: "0",
+      //     // scale: 1,
+      //     // duration: 0.01,
+      //   },
+      //   "card2"
+      // );
+
+      // tl4.to(
+      //   card3Ref.current,
+      //   {
+      //     top: "510%",
+      //     left: "5%",
+      //     rotate: "0",
+      //     // duration: 0.2,
+      //   },
+      //   "card2"
+      // );
+      // tl4.to(
+      //   card4Ref.current,
+      //   {
+      //     top: "510%",
+      //     left: "85%",
+      //     rotate: "0",
+      //     // scale: 0.5,
+      //     // duration: 0.2,
+      //   },
+      //   "card2"
+      // );
+      // tl3.to(
+      //   card5Ref.current,
+      //   {
+      //     top: "410%",
+      //     left: "30%",
+      //     rotate: "99",
+      //     scale: 0.5,
+      //     // duration: 0.2,
+      //   },
+      //   "card2"
+      // );
+      // tl3.to(
+      //   card6Ref.current,
+      //   {
+      //     top: "410%",
+      //     left: "59%",
+      //     rotate: "270",
+      //     scale: 0.5,
+      //     // duration: 0.2,
+      //   },
+      //   "card2"
+      // );
+
+      //   // 4th ANIMATION
+
+      //   const tl4 = gsap.timeline({
+      //     scrollTrigger: {
+      //       trigger: servicesContainerRef.current,
+      //       start: "80% 50%",
+      //       end: "150% 50%",
+      //       scrub: 2,
+
+      //       // markers: true,
+      //     },
+      //   });
+
+      //   tl4.to(
+      //     card1Ref.current,
+      //     {
+      //       top: "430%",
+      //       left: "30%",
+      //       rotate: "45",
+      //       scale: 0.8,
+      //       zIndex: 5,
+      //     },
+      //     "card2"
+      //   );
+      //   tl4.to(
+      //     card2Ref.current,
+      //     {
+      //       top: "442%",
+      //       left: "80%",
+      //       rotate: "-45",
+      //       scale: 0.8,
+      //       zIndex: 5,
+      //     },
+      //     "card2"
+      //   );
+      //   tl4.to(
+      //     card3Ref.current,
+      //     {
+      //       top: "460%",
+      //       left: "48%",
+      //       rotate: "315",
+      //       scale: 0.8,
+      //       zIndex: 5,
+      //     },
+      //     "card2"
+      //   );
+      //   tl4.to(
+      //     card4Ref.current,
+      //     {
+      //       top: "505%",
+      //       left: "28%",
+      //       rotate: "45",
+      //       scale: 0.8,
+      //       zIndex: 5,
+      //     },
+      //     "card2"
+      //   );
+      //   tl4.to(
+      //     card5Ref.current,
+      //     {
+      //       top: "500%",
+      //       left: "80%",
+      //       rotate: "-45",
+      //       scale: 0.8,
+      //       zIndex: 5,
+      //     },
+      //     "card2"
+      //   );
+      //   tl4.to(
+      //     card6Ref.current,
+      //     {
+      //       top: "490%",
+      //       left: "50%",
+      //       rotate: "163",
+      //       scale: 0.8,
+      //       zIndex: 5,
+      //     },
+      //     "card2"
+      //   );
     });
 
     // ------------------------------------------------------- IT ENDS HERE
@@ -630,7 +782,9 @@ const Home = () => {
         </div>
         {/* <SectionSpace /> */}
         {/* <ServicesMarquee /> */}
-        <ProcessSection />
+        <div ref={processContainerRef}>
+          <ProcessSection />
+        </div>
         {/* <SectionSpace /> */}
         <ContactSection />
         <Footer />

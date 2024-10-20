@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const ProcessCardLeft = (props) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 sm:gap-10 lg:gap-20">
-      <div className="col-span-1 bg-white  ">
+      <div className="col-span-1   ">
         <p className="text-cyan-500 text-xl font-semibold lg:mt-10 xl:mt-16">
           {props.title}
         </p>
@@ -27,15 +27,15 @@ const ProcessCardLeft = (props) => {
           </p>
         </div>
       </div>
-      <Fade direction="up">
-        <div className="col-span-1 flex justify-center items-center  ">
-          <Lottie
-            animationData={props.lottie}
-            loop={true}
-            className="min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6 "
-          />
-        </div>
-      </Fade>
+      {/* <Fade direction="up"> */}
+      <div className="col-span-1 flex justify-center items-center  ">
+        <Lottie
+          animationData={props.lottie}
+          loop={true}
+          className="min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6 "
+        />
+      </div>
+      {/* </Fade> */}
     </div>
   );
 };
