@@ -10,18 +10,18 @@ import ImpressumPage from "./containers/ImpressumPage/ImpressumPage";
 import DatenschutzPage from "./containers/DatenschutzPage/DatenschutzPage";
 
 function App() {
-  // useEffect(() => {
-  //   const lenis = new Lenis();
+  useEffect(() => {
+    const lenis = new Lenis();
 
-  //   function raf(time) {
-  //     lenis.raf(time);
-  //     requestAnimationFrame(raf);
-  //   }
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
 
-  //   requestAnimationFrame(raf);
+    requestAnimationFrame(raf);
 
-  //   console.log(window.innerHeight);
-  // });
+    console.log(window.innerHeight);
+  });
   return (
     <div className="">
       <Routes>
