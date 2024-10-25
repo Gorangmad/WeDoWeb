@@ -15,6 +15,8 @@ import ProcessSection from "../ProcessSection/ProcessSection";
 import DescriptionIcon from "@mui/icons-material/Description";
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
 
+import "./Home.css";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
@@ -553,7 +555,7 @@ const Home = () => {
   return (
     <div className=" ">
       <div
-        className="   rotate-45  absolute top-[15%] 2xl:top-[12%] left-[18%] 2xl:left-[22%]  hidden xl:flex   justify-center items-center"
+        className="  card w-40 h-40  rotate-45  absolute top-[15%] 2xl:top-[12%] left-[18%] 2xl:left-[22%]  hidden xl:flex   justify-center items-center"
         id="card-1"
         ref={card1Ref}
       >
@@ -568,13 +570,13 @@ const Home = () => {
         </svg>
          */}
 
-        <DescriptionOutlinedIcon
+        {/* <DescriptionOutlinedIcon
           sx={{ fontSize: 170 }}
           className=" text-cyan-500"
-        />
+        /> */}
       </div>
       <div
-        className="   rotate-90  absolute top-[42%] left-[12%] 2xl:left-[6%]  hidden xl:flex   justify-center items-center"
+        className="   card w-40 h-40 rotate-90  absolute top-[42%] left-[12%] 2xl:left-[6%]  hidden xl:flex   justify-center items-center"
         id="card-2"
         ref={card2Ref}
       >
@@ -589,13 +591,13 @@ const Home = () => {
         </svg>
          */}
 
-        <DescriptionOutlinedIcon
+        {/* <DescriptionOutlinedIcon
           sx={{ fontSize: 170 }}
           className=" text-cyan-500"
-        />
+        /> */}
       </div>
       <div
-        className="   rotate-180  absolute top-[72%] left-[15%] 2xl:left-[22%] hidden xl:flex   justify-center items-center"
+        className="  card w-40 h-40   rotate-180  absolute top-[72%] left-[15%] 2xl:left-[22%] hidden xl:flex   justify-center items-center"
         id="card-3"
         ref={card3Ref}
       >
@@ -610,13 +612,13 @@ const Home = () => {
         </svg>
          */}
 
-        <DescriptionOutlinedIcon
+        {/* <DescriptionOutlinedIcon
           sx={{ fontSize: 170 }}
           className=" text-cyan-500"
-        />
+        /> */}
       </div>
       <div
-        className="   -rotate-45  absolute top-[15%] 2xl:top-[12%] right-[22%] 2xl:right-[22%] hidden xl:flex   justify-center items-center"
+        className="  card w-40 h-40  -rotate-45  absolute top-[15%] 2xl:top-[12%] right-[22%] 2xl:right-[22%] hidden xl:flex   justify-center items-center"
         id="card-4"
         ref={card4Ref}
       >
@@ -631,13 +633,13 @@ const Home = () => {
         </svg>
          */}
 
-        <DescriptionOutlinedIcon
+        {/* <DescriptionOutlinedIcon
           sx={{ fontSize: 170 }}
           className=" text-cyan-500"
-        />
+        /> */}
       </div>
       <div
-        className="   -rotate-90  absolute top-[42%] right-[12%] 2xl:right-[6%] hidden lg:flex   justify-center items-center"
+        className="  card w-40 h-40  -rotate-90  absolute top-[42%] right-[12%] 2xl:right-[6%] hidden lg:flex   justify-center items-center"
         id="card-5"
         ref={card5Ref}
       >
@@ -652,13 +654,13 @@ const Home = () => {
         </svg>
          */}
 
-        <DescriptionOutlinedIcon
+        {/* <DescriptionOutlinedIcon
           sx={{ fontSize: 170 }}
           className=" text-cyan-500"
-        />
+        /> */}
       </div>
       <div
-        className="   rotate-12  absolute top-[72%] right-[22%]  2xl:right-[22%] hidden lg:flex   justify-center items-center"
+        className="  card w-40 h-40  rotate-12  absolute top-[72%] right-[22%]  2xl:right-[22%] hidden lg:flex   justify-center items-center"
         id="card-6"
         ref={card6Ref}
       >
@@ -673,10 +675,10 @@ const Home = () => {
         </svg>
          */}
 
-        <DescriptionOutlinedIcon
+        {/* <DescriptionOutlinedIcon
           sx={{ fontSize: 170 }}
           className=" text-cyan-500"
-        />
+        /> */}
       </div>
 
       {/* <PreLoader /> */}
