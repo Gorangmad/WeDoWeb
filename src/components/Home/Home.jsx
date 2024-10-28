@@ -639,7 +639,7 @@ const Home = () => {
         /> */}
       </div>
       <div
-        className="  card w-40 h-40  -rotate-90  absolute top-[42%] right-[12%] 2xl:right-[6%] hidden lg:flex   justify-center items-center"
+        className="  card w-40 h-40  -rotate-90  absolute top-[42%] right-[12%] 2xl:right-[6%] hidden xl:flex   justify-center items-center"
         id="card-5"
         ref={card5Ref}
       >
@@ -660,7 +660,7 @@ const Home = () => {
         /> */}
       </div>
       <div
-        className="  card w-40 h-40  rotate-12  absolute top-[72%] right-[22%]  2xl:right-[22%] hidden lg:flex   justify-center items-center"
+        className="  card w-40 h-40  rotate-12  absolute top-[72%] right-[22%]  2xl:right-[22%] hidden xl:flex   justify-center items-center"
         id="card-6"
         ref={card6Ref}
       >
