@@ -39,7 +39,7 @@ const Home = () => {
 
     // -------------------------------------BELOW IS THE CODE WHICH WAS RUNNING ON THE LOOM VIDEO.....
 
-    mm.add("(min-width:1280px)", () => {
+    mm.add("(min-height:600px)", () => {
       // FIRST ANIMATION
       const tl = gsap.timeline({
         scrollTrigger: {
@@ -550,6 +550,291 @@ const Home = () => {
     //     "card2"
     //   );
     // });
+
+    // ----------------------AFTER 800px HEIGHT----------------
+    mm.add("(min-height:850px)", () => {
+      // FIRST ANIMATION
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: mainContainerRef.current,
+          start: "5% 0%",
+          end: "75% 0%",
+          scrub: 2,
+          // markers: true,
+        },
+      });
+      tl.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+        {
+          top: "125%",
+          left: "70%",
+          rotate: "360",
+          scale: 0.5,
+          // duration: 5,
+        },
+        "first"
+      );
+      // SECOND ANIMATION
+      const tl2 = gsap.timeline({
+        scrollTrigger: {
+          trigger: aboutContainerRef.current,
+          start: "50% 50%",
+          end: "100% 10%",
+          scrub: 2,
+          // markers: true,
+        },
+      });
+      tl2.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+
+        {
+          top: "223%",
+          left: "20%",
+          rotate: "270",
+          scale: 1,
+          duration: 2,
+          stagger: 0.2,
+        },
+        "second"
+      );
+      // 3RD ANIMATION
+      const tl3 = gsap.timeline({
+        scrollTrigger: {
+          trigger: faqContainerRef.current,
+          start: "0% 0%",
+          end: "150% 0%",
+          scrub: 2,
+          // markers: true,
+        },
+      });
+      tl3.to(
+        card1Ref.current,
+
+        {
+          top: "310%",
+          left: "30%",
+          rotate: "45",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card2Ref.current,
+
+        {
+          top: "310%",
+          left: "59%",
+          rotate: "12",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card3Ref.current,
+
+        {
+          top: "338%",
+          left: "30%",
+          rotate: "36",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card4Ref.current,
+
+        {
+          top: "338%",
+          left: "59%",
+          rotate: "57",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card5Ref.current,
+
+        {
+          top: "370%",
+          left: "30%",
+          rotate: "99",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      tl3.to(
+        card6Ref.current,
+
+        {
+          top: "370%",
+          left: "59%",
+          rotate: "270",
+          scale: 0.5,
+          // duration: 0.2,
+        },
+        "card"
+      );
+      //   // 4TH ANIMATION
+      const tl4 = gsap.timeline({
+        scrollTrigger: {
+          trigger: processContainerRef.current,
+          start: "20% 100%",
+          end: "80% 50%",
+          scrub: 2,
+          // markers: true,
+        },
+      });
+      tl4.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+        {
+          top: "420%",
+          left: "20%",
+          rotate: "270",
+          // scale: 1,
+          duration: 2,
+          stagger: 0.2,
+        }
+      );
+      tl4.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+        {
+          top: "470%",
+          left: "70%",
+          rotate: "270",
+          // scale: 1,
+          duration: 2,
+          stagger: 0.2,
+        }
+      );
+      tl4.to(
+        [
+          card1Ref.current,
+          card2Ref.current,
+          card3Ref.current,
+          card4Ref.current,
+          card5Ref.current,
+          card6Ref.current,
+        ],
+
+        {
+          top: "520%",
+          left: "20%",
+          rotate: "270",
+          // scale: 1,
+          duration: 2,
+          stagger: 0.2,
+        }
+      );
+      // 5th ANIMATION
+      const tl5 = gsap.timeline({
+        scrollTrigger: {
+          trigger: processContainerRef.current,
+          start: "90% 50%",
+          end: "140% 50%",
+          scrub: 2,
+          // markers: true,
+        },
+      });
+      tl5.to(
+        card1Ref.current,
+        {
+          top: "575%",
+          left: "30%",
+          rotate: "45",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card5"
+      );
+      tl5.to(
+        card2Ref.current,
+        {
+          top: "577%",
+          left: "80%",
+          rotate: "-45",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card5"
+      );
+      tl5.to(
+        card3Ref.current,
+        {
+          top: "615%",
+          left: "48%",
+          rotate: "315",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card5"
+      );
+      tl5.to(
+        card4Ref.current,
+        {
+          top: "633%",
+          left: "28%",
+          rotate: "45",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card5"
+      );
+      tl5.to(
+        card5Ref.current,
+        {
+          top: "633%",
+          left: "80%",
+          rotate: "-45",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card5"
+      );
+      tl5.to(
+        card6Ref.current,
+        {
+          top: "592%",
+          left: "50%",
+          rotate: "163",
+          scale: 0.8,
+          zIndex: 5,
+        },
+        "card5"
+      );
+    });
   });
 
   return (
