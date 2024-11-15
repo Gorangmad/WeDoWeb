@@ -26,7 +26,6 @@ const Navbar = () => {
       </div>
       <div className="">
         <ul className="relative flex items-center gap-x-14 text-lg text-cyan-500 font-semibold cursor-pointer">
-          <div className="overlay absolute   w-full h-full  bg-transparent"></div>
           <li className="nav-links " id="link-1">
             <Link
               to="Home"
