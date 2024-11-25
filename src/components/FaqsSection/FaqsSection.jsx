@@ -39,87 +39,91 @@ const FaqsSection = () => {
             {/* <Fade direction="up"> */}
             <AccordionItem
               value="item-1"
-              className="border-b border-black py-5"
+              className="border-b border-black py-3"
             >
-              <AccordionTrigger className="font-medium  no-underline text-start text-xl md:text-2xl xl:text-3xl">
-                How exactly do you assist us?
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl">
+                Wie funktioniert das Bestellsystem genau?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
-                We help our clients by stepping into their business consulting
-                on their current lead generation and management system and
-                advising and building a better system backed by experience and
-                data. Our goal is to save you time, increase conversion rate and
-                pre qualify your leads as
+                Unser modernes Bestellsystem ist direkt mit einer
+                professionellen Website verknüpft und bietet eine intuitive,
+                benutzerfreundliche Plattform für Ihre Kunden. Ob Produkte,
+                Dienstleistungen oder individuelle Anforderungen – das System
+                wird genau auf Ihre Geschäftsbedürfnisse zugeschnitten und
+                ermöglicht eine reibungslose Abwicklung ohne Umwege.
               </AccordionContent>
             </AccordionItem>
             {/* </Fade> */}
             {/* <Fade direction="up"> */}
             <AccordionItem
               value="item-2"
-              className="border-b border-black py-5"
+              className="border-b border-black py-3"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
-                Which platforms do you utilize?
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl">
+                Welche Kosten fallen an? Gibt es versteckte Gebühren?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
-                We help our clients by stepping into their business consulting
-                on their current lead generation and management system and
-                advising and building a better system backed by experience and
-                data. Our goal is to save you time, increase conversion rate and
-                pre qualify your leads as
+                Es gibt keine versteckten Gebühren! Sie zahlen einmalig für die
+                Erstellung der Website und des Bestellsystems. Danach fällt eine
+                monatliche Pauschale an, die Wartung, Domain, Support, E-Mail,
+                Datenintegrität und Datenschutz abdeckt. Anders als bei
+                Plattformen, die Provisionen verlangen, behalten Sie 100 % Ihres
+                Umsatzes – egal, wie viele Bestellungen Sie generieren.
               </AccordionContent>
             </AccordionItem>
             {/* </Fade> */}
             {/* <Fade direction="up"> */}
             <AccordionItem
               value="item-3"
-              className="border-b border-black py-5"
+              className="border-b border-black py-3"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
-                How will you assess our needs?
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl">
+                Kann ich das System individuell an mein Unternehmen anpassen?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
-                We help our clients by stepping into their business consulting
-                on their current lead generation and management system and
-                advising and building a better system backed by experience and
-                data. Our goal is to save you time, increase conversion rate and
-                pre qualify your leads as
+                Absolut! Unser System ist flexibel und anpassbar. Ob spezielle
+                Funktionen, ein individuelles Design oder branchenspezifische
+                Anforderungen – wir gestalten Ihre Website und das Bestellsystem
+                genau nach Ihren Wünschen. Sie erhalten zunächst eine Vorlage,
+                die wir mit Ihnen abstimmen, und danach beginnt die Umsetzung,
+                um Ihre Vision in die Realität zu bringen.
               </AccordionContent>
             </AccordionItem>
             {/* </Fade> */}
             {/* <Fade direction="up"> */}
             <AccordionItem
               value="item-4"
-              className="border-b border-black py-5"
+              className="border-b border-black py-3"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
-                How soon can we expect to see results?
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl">
+                Wie hilft mir das System, Provisionen oder Gebühren zu sparen?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
-                We help our clients by stepping into their business consulting
-                on their current lead generation and management system and
-                advising and building a better system backed by experience and
-                data. Our goal is to save you time, increase conversion rate and
-                pre qualify your leads as
+                Viele Plattformen verlangen hohe Prozentsätze oder Gebühren für
+                jede Bestellung. Mit unserem System gehören diese Abgaben der
+                Vergangenheit an. Sie zahlen keine Prozente und behalten den
+                gesamten Umsatz, was Ihnen langfristig enorme Einsparungen und
+                mehr Kontrolle über Ihre Einnahmen bringt.
               </AccordionContent>
             </AccordionItem>
             {/* </Fade> */}
             {/* <Fade direction="up"> */}
             <AccordionItem
               value="item-5"
-              className="border-b border-black py-5"
+              className="border-b border-black py-3"
             >
-              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl xl:text-3xl">
-                With whom will I collaborate?
+              <AccordionTrigger className="font-medium text-start text-xl md:text-2xl">
+                Brauche ich technische Vorkenntnisse, um das System zu nutzen?
               </AccordionTrigger>
               <AccordionContent className="tracking-wider text-base md:text-lg 2xl:text-xl ">
-                We help our clients by stepping into their business consulting
-                on their current lead generation and management system and
-                advising and building a better system backed by experience and
-                data. Our goal is to save you time, increase conversion rate and
-                pre qualify your leads as
+                Nein, unser System ist so konzipiert, dass es für jeden einfach
+                zu bedienen ist. Zudem begleiten wir Sie in den ersten Wochen,
+                um sicherzustellen, dass Sie und Ihr Team das System optimal
+                nutzen können. Unser Support steht Ihnen jederzeit zur
+                Verfügung, um Fragen zu klären oder Herausforderungen zu lösen.
               </AccordionContent>
             </AccordionItem>
+
             {/* </Fade> */}
           </Accordion>
         </div>
