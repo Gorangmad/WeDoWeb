@@ -106,7 +106,7 @@ const AboutSection = () => {
           <div className="mt-12 w-full flex justify-start  ">
             <Button className="rounded-full text-xl px-6 py-8 font-semibold bg-cyan-500">
               <a
-                href="https://tally.so/r/w52XQo"
+                href="https://calendly.com/hazemdawood8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
