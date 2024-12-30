@@ -71,7 +71,7 @@ const AboutSection = () => {
           className="col-span-1 flex flex-col justify-start "
         >
           <div className="relative">
-            <p className="tracking-wide text-justify text-sm min-[450px]:text-base xl:tracking-wider leading-normal  md:leading-relaxed xl:leading-8 2xl:leading-8 sm:text-lg md:text-xl lg:text-lg min-[1200px]:text-xl text-black about-text">
+            <p className="tracking-wide text-start text-sm min-[450px]:text-base xl:tracking-wider leading-normal  md:leading-relaxed xl:leading-8 2xl:leading-8 sm:text-lg md:text-xl lg:text-lg min-[1200px]:text-xl text-black about-text">
               Bei WEDO zeichnen wir uns durch die Bereitstellung modernster
               digitaler Lösungen aus, die auf die individuellen Anforderungen
               Ihres Unternehmens zugeschnitten sind. Unser vielfältiges Team aus
