@@ -45,7 +45,7 @@ const Footer = () => {
                 CONTACT US
               </h6>
               <a className="link link-hover  text-lg tracking-wide font-medium flex items-center mb-2.5">
-                <MailOutlineIcon className="me-1.5" /> hello@wedo.digital
+                <MailOutlineIcon className="me-1.5" /> info@wedogbr.com
               </a>
               <a className="link link-hover  text-lg tracking-wide font-medium flex items-center ">
                 <LocationOnIcon className="me-1.5" /> Germany
