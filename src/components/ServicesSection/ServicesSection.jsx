@@ -315,7 +315,7 @@ const ServicesSection = () => {
           maßgeschneidert und effizient
         </h2>
         <hr className="mt-5 mb-12 border-2 border-cyan-500   " />
-        <p className=" text-justify lg:w-2/3 mb-12 text-gray-600">
+        <p className=" text-start lg:w-2/3 mb-12 text-gray-600">
           Unser Bestellsystem bietet Großhändlern die Möglichkeit, Bestellungen
           einfacher, schneller und kostengünstiger abzuwickeln - ohne
           Kompromisse bei der Qualität. Unsere Lösung ist vollständig anpassbar
