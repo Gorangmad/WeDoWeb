@@ -83,7 +83,7 @@ const SideDrawer = () => {
         </ul>
         <div>
           <p className="font-semibold text-2xl text-center">Visit Us</p>
-          <p className="text-sm text-center font-medium mt-3">
+          <p className="text-sm text-center font-medium mt-3 text-gray-500">
             WEDO, Gerlachstrabe 50,
             <br /> Frankfurt am Main, Deutschland
           </p>
