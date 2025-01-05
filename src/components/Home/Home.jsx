@@ -11,6 +11,7 @@ import ServicesSection from "../ServicesSection/ServicesSection";
 import Footer from "../Footer/Footer";
 import ContactSection from "../ContactSection/ContactSection";
 import ProcessSection from "../ProcessSection/ProcessSection";
+import PreLoader from "../PreLoader/PreLoader";
 
 import DescriptionIcon from "@mui/icons-material/Description";
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
@@ -966,7 +967,7 @@ const Home = () => {
         /> */}
       </div>
 
-      {/* <PreLoader /> */}
+      <PreLoader />
       <div className=" min-h-screen  relative">
         <Header />
         <div ref={mainContainerRef}>
