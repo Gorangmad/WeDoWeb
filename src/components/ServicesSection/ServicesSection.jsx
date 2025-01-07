@@ -326,55 +326,31 @@ const ServicesSection = () => {
         </p>
       </div>
       <div className="flex flex-wrap   justify-center md:justify-between  gap-10 lg:gap-20 xl:gap-10 ">
-        <ServicesCard
-          title="Keine Provisionen"
-          desc="Im
-Gegensatz zu Drittanbieter-
-Plattformen zahlen Sie bei uns nur
-eine feste Gebühr und haben volle
-Kostenkontrolle"
-        />
-        <ServicesCard
-          title="Individuelle Anpassungen"
-          desc="Wir bauen Ihr System genau so,
-wie Sie es brauchen - kein
-unnötiger Schnickschnack, nur die
-Funktionen, die für Sie wichtig
-sind"
-        />
-        <ServicesCard
-          title="Schnelle Implementierung"
-          desc="
-Unsere Systeme lassen sich
-schnell und effizient integrieren,
-sodass Sie direkt von den Vorteilen
-profitieren"
-        />
-        <ServicesCard
-          title="Langfristige Betreuung"
-          desc="Wir
-bieten kontinuierliche
-Unterstützung und sorgen dafür,
-dass Ihr System immer auf dem
-neuesten Stand bleibt"
-        />
-        <ServicesCard
-          title="Langfristige Betreuung"
-          desc="Wir
-bieten kontinuierliche
-Unterstützung und sorgen dafür,
-dass Ihr System immer auf dem
-neuesten Stand bleibt"
-        />{" "}
-        <ServicesCard
-          title="Langfristige Betreuung"
-          desc="Wir
-bieten kontinuierliche
-Unterstützung und sorgen dafür,
-dass Ihr System immer auf dem
-neuesten Stand bleibt"
-        />
-      </div>
+       <ServicesCard
+  title="Keine Provisionen"
+  desc="Vergessen Sie hohe Gebühren von Drittanbieter-Plattformen. Mit uns zahlen Sie nur eine transparente, feste Gebühr und behalten Ihre Einnahmen zu 100%."
+/>
+<ServicesCard
+  title="Eigene Online-Präsenz"
+  desc="Wir erstellen Ihre eigene Website mit integriertem Bestellsystem, damit Sie die Kontrolle über Ihre Marke und Kundendaten behalten."
+/>
+<ServicesCard
+  title="Individuelle Lösungen"
+  desc="Jedes Restaurant ist einzigartig – wir passen das System exakt an Ihre Bedürfnisse an, ohne überflüssige Funktionen."
+/>
+<ServicesCard
+  title="Schnelle Einrichtung"
+  desc="Unser Team sorgt für eine schnelle und reibungslose Implementierung, damit Ihr System in wenigen Tagen einsatzbereit ist."
+/>
+<ServicesCard
+  title="Kontinuierlicher Support"
+  desc="Wir begleiten Sie langfristig mit regelmäßigen Updates, technischer Unterstützung und Optimierungen."
+/>
+<ServicesCard
+  title="Marketing-Integration"
+  desc="Nutzen Sie Kundendaten für gezielte Marketingaktionen wie Newsletter, Rabattaktionen oder Treueprogramme – alles direkt über Ihr System."
+/>
+     </div>
     </section>
   );
 };
