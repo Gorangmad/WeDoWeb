@@ -44,14 +44,14 @@ const ContactSection = () => {
     >
       <div className=" ">
         <h2 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
-          Contact Us
+          Kontaktiere Uns!
         </h2>
         <hr className="mt-5 mb-10 border-2 border-cyan-500   " />
       </div>
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 pt-5">
         <div className="col-span-1">
           <p className=" text-3xl font-black mb-10 lg:mb-20  text-black ">
-            Get in touch with us
+            Schreib uns jetzt für eine kostenlose Erstberatung
           </p>
           <form
             className="flex flex-col gap-y-10 lg:gap-y-16"
@@ -80,7 +80,7 @@ const ContactSection = () => {
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
             <div>
-              <button className="button" type="submit">
+              <button className="button" type="SENDEN">
                 Submit
               </button>
             </div>
