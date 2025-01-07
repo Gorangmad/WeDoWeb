@@ -58,7 +58,7 @@ const AboutSection = () => {
     >
       <div>
         <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
-          ABOUT US
+          ÜBER UNS
         </h1>
         <hr className="mt-5 mb-5 2xl:mb-10 border-2 border-cyan-500   " />
       </div>
