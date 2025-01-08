@@ -25,14 +25,14 @@ const ContactSection = () => {
         publicKey: "htG5M9rBf2f4B9V3q",
       })
       .then(() => {
-        console.log("SUCCESS!");
+        // console.log("SUCCESS!");
         alert("Message sent successfully!");
         setFullName("");
         setEmail("");
         setMessage("");
       })
       .catch((err) => {
-        console.error(err);
+        // console.error(err);
         alert("Failed to send message. Please try again.");
       });
   };

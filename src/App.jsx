@@ -20,7 +20,7 @@ function App() {
 
     requestAnimationFrame(raf);
 
-    console.log(window.innerHeight);
+    // console.log(window.innerHeight);
   });
   return (
     <div className="">
