@@ -6,10 +6,10 @@ const FooterCta = () => {
   return (
     <div className="w-full bg-image bg-cyan-300 flex flex-col justify-center items-center text-black p-8 my-8 py-16 lg:py-12 xl:py-20">
       <p className="font-black text-3xl min-[400px]:text-4xl sm:text-6xl lg:text-7xl text-center mb-7 lg:mb-10">
-        Still got some questions?
+        Immernoch Unsicher?
       </p>
       <p className="text-center  text-xl sm:text-2xl  font-medium mb-7 lg:mb-10 ">
-        Book a free demo call today with Unorthodox
+        Buchen sie jetzt ein kostenloses Beratungsgespräch!
       </p>
       <div>
         <div className=" ">

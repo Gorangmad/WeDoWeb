@@ -25,7 +25,7 @@ const AboutSection = () => {
     >
       <div>
         <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
-          ABOUT US
+          ÜBER UNS
         </h1>
         <hr className="mt-5 mb-5 2xl:mb-10 border-2 border-cyan-500   " />
       </div>
@@ -39,20 +39,40 @@ const AboutSection = () => {
         >
           <div className="relative">
             <p className="tracking-wide text-start text-sm min-[450px]:text-base xl:tracking-wider leading-normal  md:leading-relaxed xl:leading-8 2xl:leading-8 sm:text-lg md:text-xl lg:text-lg min-[1200px]:text-xl text-black about-text">
-              Bei WEDO zeichnen wir uns durch die Bereitstellung modernster
-              digitaler Lösungen aus, die auf die individuellen Anforderungen
-              Ihres Unternehmens zugeschnitten sind. Unser vielfältiges Team aus
-              Fachleuten kombiniert fundierte Branchenkenntnisse mit den
-              neuesten technologischen Fortschritten, um innovative und
-              effektive Strategien zu entwickeln. Von der Erstellung dynamischer
-              Websites und mobiler Anwendungen bis hin zur Implementierung
-              umfassender digitaler Marketingkampagnen setzen wir uns dafür ein,
-              Ihren Erfolg in einer wettbewerbsintensiven digitalen Landschaft
-              voranzutreiben. Wir sind stolz auf einen kundenorientierten Ansatz
-              und stellen sicher, dass jedes Projekt auf Ihre spezifischen Ziele
-              und Herausforderungen zugeschnitten ist. Lassen Sie WEDO der
-              Katalysator für Ihre digitale Transformation sein.
+              Bei WEDO unterstützen wir Unternehmen dabei, sich von der
+              Abhängigkeit von digitalen Intermediären zu lösen und eine
+              unabhängige, direkte Verbindung zu ihren Kunden aufzubauen – ohne
+              hohe Gebühren oder Provisionen pro Bestellung. Unser erfahrenes
+              Team kombiniert fundiertes Branchenwissen mit innovativer
+              Technologie, um maßgeschneiderte Lösungen zu entwickeln, die den
+              spezifischen Anforderungen Ihres Geschäfts gerecht werden. Von der
+              Erstellung individueller Websites und Bestellsysteme bis hin zur
+              Optimierung von Kundeninteraktionen und dem Aufbau einer
+              eigenständigen Online-Präsenz – wir bieten alles, was Sie
+              benötigen, um Ihre Marke zu stärken und Ihre Gewinnmargen zu
+              maximieren. Mit einem kundenorientierten Ansatz und einem Fokus
+              auf Effizienz und Innovation stellen wir sicher, dass jedes
+              Projekt Ihren Zielen und Herausforderungen entspricht. Lassen Sie
+              WEDO Ihr Partner sein, um in einer digitalen Welt erfolgreich,
+              selbstbestimmt und unabhängig zu agieren.
             </p>
+
+            {/* <p
+              ref={aboutTextRef}
+              className="tracking-wide xl:tracking-wider  leading-normal md:leading-relaxed xl:leading-8 2xl:leading-9 sm:text-lg  md:text-xl lg:text-lg min-[1200px]:text-xl 2xl:text-2xl absolute  top-0 h-10 overflow-hidden about-text-hover"
+            >
+              At WEDO, we excel in providing cutting-edge digital solutions
+              tailored to meet the unique needs of your business. Our diverse
+              team of professionals combines deep industry knowledge with the
+              latest technological advancements to deliver innovative and
+              effective strategies. From building dynamic websites and mobile
+              applications to implementing comprehensive digital marketing
+              campaigns, we are dedicated to driving your success in a
+              competitive digital landscape. We pride ourselves on a
+              client-centric approach, ensuring that every project is customized
+              to align with your specific goals and challenges. Let WEDO be the
+              catalyst for your digital transformation.
+            </p> */}
           </div>
           <div className="mt-12 w-full flex justify-start  ">
             <Button className="rounded-full text-xl px-6 py-8 font-semibold bg-cyan-500">

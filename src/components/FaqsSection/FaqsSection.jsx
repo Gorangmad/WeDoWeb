@@ -13,7 +13,7 @@ const FaqsSection = () => {
   return (
     <section className="w-11/12 min-[450px]:w-5/6 mx-auto mb-20 lg:mb-28 xl:mb-40 ">
       <h1 className="text-cyan-500 font-black text-3xl md:text-4xl lg:text-5xl  2xl:text-6xl">
-        FAQs
+        Häufige Fragen
       </h1>
       <hr className="mt-5 mb-2 border-2 border-cyan-500   " />
       <div className=" grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-4 xl:gap-20 ">

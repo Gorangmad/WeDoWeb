@@ -47,7 +47,7 @@ const Navbar = () => {
               duration={500}
               className="   "
             >
-              About Us
+              Über uns
             </Link>
           </li>{" "}
           <li className="nav-links " id="link-3">
@@ -59,7 +59,7 @@ const Navbar = () => {
               duration={500}
               className="   "
             >
-              Services
+              Dienste
             </Link>
           </li>{" "}
           <li className="nav-links " id="link-4">
@@ -71,7 +71,7 @@ const Navbar = () => {
               duration={500}
               className="   "
             >
-              Contact Us
+              Kontakt
             </Link>
           </li>
         </ul>

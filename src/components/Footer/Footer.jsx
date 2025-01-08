@@ -17,9 +17,8 @@ const Footer = () => {
           <footer className="footer   my-5 mb-10 md:my-20 lg:mt-40 lg:mb-10">
             <aside>
               <img src={Logo} className="w-52 mb-4 rounded-lg" />
-              <p className="text-xl font-medium w-4/5 ">
-                We supercharge our clients businesses with smart AI solutions
-                and systemised processes.
+              <p className="text-xl font-medium w-4/5">
+                 Wir stärken Unternehmen mit maßgeschneiderten digitalen Lösungen und effizienten Systemen, die die Abhängigkeit von Intermediären eliminieren.
               </p>
             </aside>
             <nav className="me-8">
