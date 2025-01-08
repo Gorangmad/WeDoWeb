@@ -3,7 +3,7 @@ import FooterCta from "../FooterCta/FooterCta";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

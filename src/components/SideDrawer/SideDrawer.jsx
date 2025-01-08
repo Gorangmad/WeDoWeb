@@ -8,7 +8,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 import { Link } from "react-scroll";
 
 const SideDrawer = () => {

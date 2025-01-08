@@ -1,5 +1,5 @@
 import { useGSAP } from "@gsap/react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 import gsap from "gsap";
 import { Link } from "react-scroll";
 
