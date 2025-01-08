@@ -25,18 +25,9 @@ const FaqsSection = () => {
               className=" min-[450px]:w-5/6 md:w-3/4 mx-auto lg:w-5/6 xl:w-4/5 min-[1700px]:w-4/6    "
             />
           </div>
-          {/* <Fade> */}
-          {/* </Fade> */}
-          {/* <p className="tracking-wide text-lg  min-[500px]:text-xl  font-[525] text-gray-600   ">
-          We understand that when you're considering our services, you may have
-          specific questions and concerns that need addressing. To assist you,
-          we've carefully curated a comprehensive collection of frequently asked
-          questions.
-        </p> */}
         </div>
         <div className="lg:col-span-1 ">
           <Accordion type="single" collapsible>
-            {/* <Fade direction="up"> */}
             <AccordionItem
               value="item-1"
               className="border-b border-black py-3"
@@ -53,8 +44,7 @@ const FaqsSection = () => {
                 ermöglicht eine reibungslose Abwicklung ohne Umwege.
               </AccordionContent>
             </AccordionItem>
-            {/* </Fade> */}
-            {/* <Fade direction="up"> */}
+
             <AccordionItem
               value="item-2"
               className="border-b border-black py-3"
@@ -71,8 +61,7 @@ const FaqsSection = () => {
                 Umsatzes – egal, wie viele Bestellungen Sie generieren.
               </AccordionContent>
             </AccordionItem>
-            {/* </Fade> */}
-            {/* <Fade direction="up"> */}
+
             <AccordionItem
               value="item-3"
               className="border-b border-black py-3"
@@ -89,8 +78,7 @@ const FaqsSection = () => {
                 um Ihre Vision in die Realität zu bringen.
               </AccordionContent>
             </AccordionItem>
-            {/* </Fade> */}
-            {/* <Fade direction="up"> */}
+
             <AccordionItem
               value="item-4"
               className="border-b border-black py-3"
@@ -106,8 +94,7 @@ const FaqsSection = () => {
                 mehr Kontrolle über Ihre Einnahmen bringt.
               </AccordionContent>
             </AccordionItem>
-            {/* </Fade> */}
-            {/* <Fade direction="up"> */}
+
             <AccordionItem
               value="item-5"
               className="border-b border-black py-3"
@@ -123,8 +110,6 @@ const FaqsSection = () => {
                 Verfügung, um Fragen zu klären oder Herausforderungen zu lösen.
               </AccordionContent>
             </AccordionItem>
-
-            {/* </Fade> */}
           </Accordion>
         </div>
       </div>{" "}

@@ -2,54 +2,21 @@ import { useRef } from "react";
 
 import Lottie from "lottie-react";
 
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import CallIcon from "@mui/icons-material/Call";
 
 import AboutLottie from "../../assets/Lotties/about.json";
-import AboutImage from "../../assets/about.jpg";
+
 import { Button } from "../../shadcn-components/ui/button";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const AboutSection = () => {
-  const aboutTextRef = useRef();
   const textContainerRef = useRef();
   const aboutLottieRef = useRef();
   const aboutContainerRef = useRef();
-
-  // useGSAP(() => {
-  //   const tl = gsap.timeline({
-  //     scrollTrigger: {
-  //       trigger: textContainerRef.current,
-  //       start: "30% 60%",
-  //       end: "80% 50%",
-  //       // markers: true,
-  //       scrub: 2,
-  //     },
-  //   });
-  //   tl.to(aboutTextRef.current, {
-  //     height: "100%",
-  //   });
-  // });
-
-  // useGSAP(() => {
-  //   const tl = gsap.timeline({
-  //     scrollTrigger: {
-  //       trigger: aboutContainerRef.current,
-  //       start: "75% 50%",
-  //       end: "150% 50%",
-  //       // markers: true,
-  //       scrub: 2,
-  //     },
-  //   });
-  //   tl.to(aboutLottieRef.current, {
-  //     top: "182%",
-  //     left: "9%",
-  //   });
-  // });
 
   return (
     <section
@@ -86,22 +53,6 @@ const AboutSection = () => {
               und Herausforderungen zugeschnitten ist. Lassen Sie WEDO der
               Katalysator für Ihre digitale Transformation sein.
             </p>
-            {/* <p
-              ref={aboutTextRef}
-              className="tracking-wide xl:tracking-wider  leading-normal md:leading-relaxed xl:leading-8 2xl:leading-9 sm:text-lg  md:text-xl lg:text-lg min-[1200px]:text-xl 2xl:text-2xl absolute  top-0 h-10 overflow-hidden about-text-hover"
-            >
-              At WEDO, we excel in providing cutting-edge digital solutions
-              tailored to meet the unique needs of your business. Our diverse
-              team of professionals combines deep industry knowledge with the
-              latest technological advancements to deliver innovative and
-              effective strategies. From building dynamic websites and mobile
-              applications to implementing comprehensive digital marketing
-              campaigns, we are dedicated to driving your success in a
-              competitive digital landscape. We pride ourselves on a
-              client-centric approach, ensuring that every project is customized
-              to align with your specific goals and challenges. Let WEDO be the
-              catalyst for your digital transformation.
-            </p> */}
           </div>
           <div className="mt-12 w-full flex justify-start  ">
             <Button className="rounded-full text-xl px-6 py-8 font-semibold bg-cyan-500">
