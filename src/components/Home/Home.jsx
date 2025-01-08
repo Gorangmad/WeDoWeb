@@ -45,7 +45,6 @@ const Home = () => {
           start: "5% 0%",
           end: "75% 0%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl.to(
@@ -62,7 +61,6 @@ const Home = () => {
           left: "70%",
           rotate: "360",
           scale: 0.5,
-          // duration: 5,
         },
         "first"
       );
@@ -73,7 +71,6 @@ const Home = () => {
           start: "50% 50%",
           end: "100% 10%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl2.to(
@@ -103,7 +100,6 @@ const Home = () => {
           start: "0% 0%",
           end: "150% 0%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl3.to(
@@ -114,7 +110,6 @@ const Home = () => {
           left: "30%",
           rotate: "45",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -126,7 +121,6 @@ const Home = () => {
           left: "59%",
           rotate: "12",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -138,7 +132,6 @@ const Home = () => {
           left: "30%",
           rotate: "36",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -150,7 +143,6 @@ const Home = () => {
           left: "59%",
           rotate: "57",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -162,7 +154,6 @@ const Home = () => {
           left: "30%",
           rotate: "99",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -174,7 +165,6 @@ const Home = () => {
           left: "59%",
           rotate: "270",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -185,7 +175,6 @@ const Home = () => {
           start: "20% 100%",
           end: "80% 50%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl4.to(
@@ -201,7 +190,7 @@ const Home = () => {
           top: "480%",
           left: "20%",
           rotate: "270",
-          // scale: 1,
+
           duration: 2,
           stagger: 0.2,
         }
@@ -219,7 +208,7 @@ const Home = () => {
           top: "530%",
           left: "70%",
           rotate: "270",
-          // scale: 1,
+
           duration: 2,
           stagger: 0.2,
         }
@@ -238,7 +227,7 @@ const Home = () => {
           top: "580%",
           left: "20%",
           rotate: "270",
-          // scale: 1,
+
           duration: 2,
           stagger: 0.2,
         }
@@ -250,7 +239,6 @@ const Home = () => {
           start: "90% 50%",
           end: "140% 50%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl5.to(
@@ -332,7 +320,6 @@ const Home = () => {
           start: "5% 0%",
           end: "75% 0%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl.to(
@@ -360,7 +347,6 @@ const Home = () => {
           start: "50% 50%",
           end: "100% 10%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl2.to(
@@ -390,7 +376,6 @@ const Home = () => {
           start: "0% 0%",
           end: "150% 0%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl3.to(
@@ -401,7 +386,6 @@ const Home = () => {
           left: "30%",
           rotate: "45",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -413,7 +397,6 @@ const Home = () => {
           left: "59%",
           rotate: "12",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -425,7 +408,6 @@ const Home = () => {
           left: "30%",
           rotate: "36",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -437,7 +419,6 @@ const Home = () => {
           left: "59%",
           rotate: "57",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -449,7 +430,6 @@ const Home = () => {
           left: "30%",
           rotate: "99",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -461,7 +441,6 @@ const Home = () => {
           left: "59%",
           rotate: "270",
           scale: 0.5,
-          // duration: 0.2,
         },
         "card"
       );
@@ -472,7 +451,6 @@ const Home = () => {
           start: "20% 100%",
           end: "80% 50%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl4.to(
@@ -488,7 +466,7 @@ const Home = () => {
           top: "420%",
           left: "20%",
           rotate: "270",
-          // scale: 1,
+
           duration: 2,
           stagger: 0.2,
         }
@@ -506,7 +484,7 @@ const Home = () => {
           top: "470%",
           left: "70%",
           rotate: "270",
-          // scale: 1,
+
           duration: 2,
           stagger: 0.2,
         }
@@ -525,7 +503,7 @@ const Home = () => {
           top: "520%",
           left: "20%",
           rotate: "270",
-          // scale: 1,
+
           duration: 2,
           stagger: 0.2,
         }
@@ -537,7 +515,6 @@ const Home = () => {
           start: "90% 50%",
           end: "140% 50%",
           scrub: 2,
-          // markers: true,
         },
       });
       tl5.to(

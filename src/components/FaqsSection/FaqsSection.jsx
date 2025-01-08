@@ -7,7 +7,6 @@ import {
 
 import FaqLottie from "../../assets/Lotties/faq.json";
 import Lottie from "lottie-react";
-// import { Fade } from "react-awesome-reveal";
 
 const FaqsSection = () => {
   return (

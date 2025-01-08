@@ -23,7 +23,7 @@ const ServicesMarquee = () => {
         trigger: marqueeRef.current,
         start: "10% 50%",
         end: "bottom 50%",
-        // markers: true,
+
         scrub: true,
       },
     });
