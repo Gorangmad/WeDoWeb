@@ -39,19 +39,19 @@ const ServicesMarquee = () => {
     >
       <p className="">Website Development</p>
       <div className={`arrow  `}>
-        <img src={ArrowSvg} alt="arrow" />{" "}
+        <img src={ArrowSvg} alt="arrow" loading="lazy" />{" "}
       </div>
       <p className="">App Development</p>
       <div className={`arrow  `}>
-        <img src={ArrowSvg} alt="arrow" />{" "}
+        <img src={ArrowSvg} alt="arrow" loading="lazy" />{" "}
       </div>
       <p className="">IT Solutions</p>
       <div className={`arrow  `}>
-        <img src={ArrowSvg} alt="arrow" />{" "}
+        <img src={ArrowSvg} alt="arrow" loading="lazy" />{" "}
       </div>
       <p className="">Digital Presence</p>
       <div className={`arrow  `}>
-        <img src={ArrowSvg} alt="arrow" />{" "}
+        <img src={ArrowSvg} alt="arrow" loading="lazy" />{" "}
       </div>
     </Marquee>
   );

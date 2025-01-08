@@ -15,7 +15,7 @@ const SideDrawer = () => {
   return (
     <Sheet>
       <div className="flex justify-between items-center bg-transparent pl-2 pt-4 pr-4 fixed left-0 top-0 w-full   min-[450px]:pl-5 min-[450px]:pr-6 bg-white z-40">
-        <img src={Logo} className="w-28" alt="wedo-logo" />
+        <img src={Logo} className="w-28" alt="wedo-logo" loading="lazy" />
         <div className="   flex justify-start items-center ">
           <SheetTrigger>
             <MenuIcon fontSize="large" />
@@ -26,7 +26,7 @@ const SideDrawer = () => {
         side="left"
         className="w-80 flex flex-col items-center justify-between"
       >
-        <img src={Logo} className="w-36 mt-5" alt="wedo-logo" />
+        <img src={Logo} className="w-36 mt-5" alt="wedo-logo" loading="lazy" />
         <ul className="w-full flex flex-col justify-center items-center text-sm">
           <li className="border-y-2 py-2.5 border-cyan-500  w-full mb-1 ">
             <SheetClose asChild>

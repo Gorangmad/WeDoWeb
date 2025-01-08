@@ -20,6 +20,7 @@ const Footer = () => {
                 src={Logo}
                 className="w-52 mb-4 rounded-lg"
                 alt="wedo-logo"
+                loading="lazy"
               />
               <p className="text-xl font-medium w-4/5">
                 Wir stärken Unternehmen mit maßgeschneiderten digitalen Lösungen
