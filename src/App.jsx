@@ -1,9 +1,7 @@
 import HomePage from "./containers/HomePage/HomePage";
 import "./App.css";
 import { useEffect } from "react";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import Lenis from "lenis";
 import { Route, Routes } from "react-router-dom";
 import ImpressumPage from "./containers/ImpressumPage/ImpressumPage";
