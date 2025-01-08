@@ -336,7 +336,6 @@ const Home = () => {
           left: "70%",
           rotate: "360",
           scale: 0.5,
-          // duration: 5,
         },
         "first"
       );

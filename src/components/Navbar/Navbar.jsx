@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between w-5/6 mx-auto right-0 left-0 absolute top-0 bg-white lg:bg-transparent ">
       <div>
-        <img src={Logo} className="w-40" />
+        <img src={Logo} className="w-40" alt="wedo-logo" />
       </div>
       <div className="">
         <ul className="relative flex items-center gap-x-14 text-lg text-cyan-500 font-semibold cursor-pointer">
