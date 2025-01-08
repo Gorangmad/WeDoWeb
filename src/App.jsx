@@ -18,8 +18,13 @@ function App() {
 
     requestAnimationFrame(raf);
 
-    // console.log(window.innerHeight);
-  });
+    // Cleanup function to stop the animation frame loop
+    return () => {
+      // Add any necessary cleanup for Lenis if required
+      lenis.destroy?.(); // Call `destroy` if Lenis provides a cleanup method
+    };
+  }, []); // Empty dependency array ensures it runs only once
+
   return (
     <div className="">
       <Routes>
