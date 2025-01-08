@@ -1,7 +1,6 @@
 const ServicesCard = (props) => {
   return (
     <div className="rounded-2xl shadow-2xl flex flex-col items-start justify-center   w-[360px] h-72 p-6 text-black hover:text-white   transition ease-in-out    hover:-translate-y-2 hover:scale-105 hover:bg-cyan-400 duration-300">
-      {/* <div className="absolute -top-3 -right-2 bg-cyan-400  p-8 rounded-xl overflow-hidden "></div> */}
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

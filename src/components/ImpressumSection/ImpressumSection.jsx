@@ -20,30 +20,6 @@ const ImpressumSection = () => {
           text1="Gorang Madaan"
           text2="Hazem Dawood"
         />
-        {/* <ImpressumCard
-          title="Kontakt"
-          text1="Tel: 030 - 469 990 798"
-          text2="E-Mail: info@space-rocket.de"
-          text3="www.space-rocket.de"
-        />
-        <ImpressumCard
-          title="Standort Tiergarten"
-          text1="Space Rocket"
-          text2="Waldstraße 25"
-          text3="10551 Berlin"
-        />
-        <ImpressumCard
-          title="Vertretungsberechtigte Gesellschafter"
-          text1="Sebastian Wenske"
-          text2="Baris Cetin"
-        />
-        <ImpressumCard
-          title="Bankverbindung"
-          text1="Commerzbank"
-          text2="IBAN: DE96 1004 0000 0672 4405 00"
-          text3="BIC: COBADEFFXXX"
-          text4="USt-ID: DE322172389"
-        /> */}
       </div>
       <div className="flex flex-col items-start gap-y-12 my-16">
         <p className="text-black  text-3xl lg:text-4xl font-[550] text-center uppercase w-full ">
